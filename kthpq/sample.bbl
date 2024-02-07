@@ -1,0 +1,144 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{anyt/global//global/global}
+    \entry{bourdoukan_enforcing_2015}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=d5d9171135c3f726261214c0bfb32d34}{%
+           family={Bourdoukan},
+           familyi={B\bibinitperiod},
+           given={Ralph},
+           giveni={R\bibinitperiod}}}%
+        {{hash=201294632b58f6ed012c5cd061239c6d}{%
+           family={Denève},
+           familyi={D\bibinitperiod},
+           given={Sophie},
+           giveni={S\bibinitperiod}}}%
+      }
+      \name{editor}{5}{}{%
+        {{hash=c294bbcb0687bdb5113cc4c4cd6ebad3}{%
+           family={Cortes},
+           familyi={C\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=5fa5574879f8e77bee73db4442b005f7}{%
+           family={Lawrence},
+           familyi={L\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=98056d9ddecda0076a31a183e3e69326}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=0ef91066dee98e654f9aebd57da00647}{%
+           family={Sugiyama},
+           familyi={S\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=36b98b7ab533936cf1b5716148de704f}{%
+           family={Garnett},
+           familyi={G\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Curran Associates, Inc.}%
+      }
+      \strng{namehash}{0d65ab5c1102d1c4e5ec9356f1b57db5}
+      \strng{fullhash}{0d65ab5c1102d1c4e5ec9356f1b57db5}
+      \strng{bibnamehash}{0d65ab5c1102d1c4e5ec9356f1b57db5}
+      \strng{authorbibnamehash}{0d65ab5c1102d1c4e5ec9356f1b57db5}
+      \strng{authornamehash}{0d65ab5c1102d1c4e5ec9356f1b57db5}
+      \strng{authorfullhash}{0d65ab5c1102d1c4e5ec9356f1b57db5}
+      \strng{editorbibnamehash}{95e40444732d7905041fa015b18cfa44}
+      \strng{editornamehash}{f981a0b37ac43bd0fc3784cbcce306be}
+      \strng{editorfullhash}{95e40444732d7905041fa015b18cfa44}
+      \field{labelalpha}{BD15}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Advances in Neural Information Processing Systems}
+      \field{title}{Enforcing balance allows local supervised learning in spiking recurrent networks}
+      \field{volume}{28}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://proceedings.neurips.cc/paper_files/paper/2015/file/3871bd64012152bfb53fdf04b401193f-Paper.pdf
+      \endverb
+      \verb{url}
+      \verb https://proceedings.neurips.cc/paper_files/paper/2015/file/3871bd64012152bfb53fdf04b401193f-Paper.pdf
+      \endverb
+    \endentry
+    \entry{huang_spiking_2019}{article}{}
+      \name{author}{2}{}{%
+        {{hash=82ba458c19f9c19a6b95641e1871da4c}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Fuqiang},
+           giveni={F\bibinitperiod}}}%
+        {{hash=1c89e143de8795a07d4e50d6e1ccb768}{%
+           family={Ching},
+           familyi={C\bibinitperiod},
+           given={{ShiNung}},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{8d9498741bc67be4a06d23e33e9995f4}
+      \strng{fullhash}{8d9498741bc67be4a06d23e33e9995f4}
+      \strng{bibnamehash}{8d9498741bc67be4a06d23e33e9995f4}
+      \strng{authorbibnamehash}{8d9498741bc67be4a06d23e33e9995f4}
+      \strng{authornamehash}{8d9498741bc67be4a06d23e33e9995f4}
+      \strng{authorfullhash}{8d9498741bc67be4a06d23e33e9995f4}
+      \field{labelalpha}{HC19}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0340-1200, 1432-0770}
+      \field{journaltitle}{Biological Cybernetics}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{number}{1}
+      \field{shortjournal}{Biol Cybern}
+      \field{title}{Spiking networks as efficient distributed controllers}
+      \field{urlday}{23}
+      \field{urlmonth}{10}
+      \field{urlyear}{2022}
+      \field{volume}{113}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{179\bibrangedash 190}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1007/s00422-018-0769-7
+      \endverb
+      \verb{urlraw}
+      \verb http://link.springer.com/10.1007/s00422-018-0769-7
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/s00422-018-0769-7
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

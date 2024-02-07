@@ -1,0 +1,108 @@
+% Copyright (c) 2023 Isaac Ren. Licensed under the MIT license (see LICENSE.txt).
+
+\mode<presentation>
+
+\RequirePackage{kvoptions}
+
+% Options
+\SetupKeyvalOptions{%
+family=kthpq,
+prefix=kthpq@
+}
+\DeclareStringOption[lualatex]{engine}
+\DeclareStringOption[sf]{mathshape}
+\ProcessKeyvalOptions{kthpq}
+
+% Post-processing of options
+\newif\ifuselualatex
+\uselualatexfalse
+
+\newcommand*{\kthpq@engine@lualatex}{%
+\uselualatextrue
+\RequirePackage[no-math, quiet]{fontspec}% add option "quiet" if the warnings are a problem
+\setmainfont{Georgia}% as per KTH guidelines
+\setsansfont{Figtree}[% Beamer uses the sans serif font
+Path = kthpq-files/fonts/Figtree/otf/,
+Extension = .otf,
+UprightFont = *-Regular,
+BoldFont = *-Bold,
+ItalicFont = *-Italic,
+BoldItalicFont = *-BoldItalic%
+]
+\setmonofont{Beramono}[% A personally appreciated monospace font
+Path = kthpq-files/fonts/ttf-bitstream-vera-1.10/,
+Extension = .ttf,
+UprightFont = VeraMono,
+BoldFont = VeraMoBd,
+ItalicFont = VeraMoIt,
+BoldItalicFont = VeraMoBI,
+Scale=0.85%
+]
+}
+
+\newcommand*{\kthpq@engine@pdflatex}{%
+% Default to Helvetica (sans serif) and Bitstream Charter (serif)
+\RequirePackage[scaled=.92]{helvet}
+\usepackage{XCharter}
+\renewcommand{\familydefault}{\sfdefault}
+\RequirePackage[scaled=.85]{beramono}
+\usepackage[utf8]{inputenc}
+}
+
+\newcommand*{\kthpq@mathshape@sf}{%
+\ifuselualatex
+% Figtree is very limited in terms of math symbols (not even greek letters),
+% so we supplement it with FiraMath, a sans serif Open Type math font.
+%
+% Italic numerals are not included.
+\RequirePackage[warnings-off={mathtools-colon, mathtools-overbracket}]{unicode-math}
+\RequirePackage{firamath-otf}
+\setmathfont{Figtree-Regular}[Path=kthpq-files/fonts/Figtree/otf/,range=up/{latin,Latin,num}]
+\setmathfont{Figtree-Italic}[Path=kthpq-files/fonts/Figtree/otf/,range=it/{latin,Latin}]
+\setmathfont{Figtree-Bold}[Path=kthpq-files/fonts/Figtree/otf/,range=bfup/{latin,Latin,num}]
+\setmathfont{Figtree-BoldItalic}[Path=kthpq-files/fonts/Figtree/otf/,range=bfit/{latin,Latin}]
+\setmathfont{Latin Modern Math}[range={frak,\bigcap,\bigcup,\bigoplus,\bigwedge,\bigvee}]
+\setoperatorfont\mathsf
+\else
+% Set operators to sans with sans math fonts, and then all letters and text
+% back to the current sans serif font.
+\RequirePackage[OT1]{fontenc}
+\RequirePackage[onlymath]{sansmathfonts}
+\RequirePackage[T1]{fontenc}
+\let\oldfamilydefault\familydefault
+\renewcommand{\familydefault}{\sfdefault}
+\RequirePackage[italic]{mathastext}
+\renewcommand{\familydefault}{\oldfamilydefault}
+\fi
+}
+\let\kthpq@engine@latex\kthpq@engine@pdflatex
+
+\newcommand*{\kthpq@mathshape@rm}{%
+\ifuselualatex
+\RequirePackage[warnings-off={mathtools-colon, mathtools-overbracket}]{unicode-math}
+\setmathfont{XCharter-Math}
+\else
+\let\oldfamilydefault\familydefault
+\renewcommand{\familydefault}{\rmdefault}
+\RequirePackage[italic]{mathastext}
+\renewcommand{\familydefault}{\oldfamilydefault}
+\fi
+}
+
+\newcommand*{\kthpq@mathshape@custom}{%
+}
+
+% Set general fonts
+\csname kthpq@engine@\kthpq@engine\endcsname\relax
+\csname kthpq@mathshape@\kthpq@mathshape\endcsname\relax
+
+% Set beamer fonts
+\setbeamerfont{title}{size=\huge}
+\setbeamerfont{subtitle}{size=\normalsize}
+
+\setbeamerfont{section in head/foot}{size=\small}
+
+\setbeamerfont{footline}{shape=\normalfont, size=\footnotesize}
+
+
+\mode<all>

@@ -1,0 +1,567 @@
+% !Tex program = lualatex
+
+%\documentclass[handout,17pt, t, lualatex]{beamer}
+\documentclass[17pt, t, lualatex]{beamer}
+
+%Use handout option in class to disable \pause temporarily
+
+
+\title{Spiking Neural Networks for Control}
+\date{\today}
+\institute[KTH]{KTH Royal Institute of Technology}
+\author{Max Schaufelberger}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{calc,scopes,fadings}
+\usepackage{amsmath,amssymb,mathtools}
+\usepackage{xcolor}
+\usepackage{stackengine,adjustbox}
+\usepackage{pgfplots}
+\usepgfplotslibrary{groupplots}
+
+
+
+\usepackage{todonotes}
+\presetkeys{todonotes}{inline}{}
+
+
+\usepackage[absolute,overlay]{textpos}
+%\usepackage[texcoord,grid,gridcolor=red!10,subgridcolor=green!10,gridunit=pt]{eso-pic}
+
+\input{bibliography}
+
+
+\newcommand{\rank}{\text{rank}\,}
+
+
+
+% Probably load as late as possible
+% Other options are
+% - engine=pdflatex to compile in pdfLaTeX (with different fonts),
+% - mathshape=rm to use serif font for math,
+% - mathsahpe=custom to not set any math font (so that you can define your own math fonts)
+\usetheme[engine=lualatex, mathshape=sf]{kthpq}
+
+% Custom footline
+%\setfootline{left}{center}{right}
+
+\begin{document}
+\inserttitlepage
+
+\section*{Table of Contents}
+\begin{frame}{Table of Contents}
+	\tableofcontents
+\end{frame}
+
+
+\section{Introduction}\insertsectionpage
+\begin{frame}{What are we talking about}
+	\begin{columns}[T]
+
+		\begin{column}{0.48\textwidth}
+			\begin{block}{Control a Linear system}
+				\only<2->{
+					\begin{itemize}
+						\item Tracking of reference trajectory
+						\item[] \begin{equation}\begin{aligned}
+							\dot{x} = Ax + Bu\\
+							y = Cx
+							\end{aligned}\end{equation}
+						\item Only stable systems
+					\end{itemize}}
+				\only<1>{
+					\begin{center}
+						\includegraphics[width=0.7\textwidth]{figures/closed_loop_control.png}
+					\end{center}}
+			\end{block}
+		\end{column}
+
+		\begin{column}{0.48\textwidth}
+			\begin{block}{Use Spiking neural networks}
+				\only<2->{
+				\begin{itemize}
+					\item Third Generation of NN
+					\item Working with discrete spikes
+					\item Inherently fit for temporal data
+				\end{itemize}
+				}
+				\only<1>{
+					\begin{center}
+						\includegraphics[width=0.7\textwidth]{figures/test.png}
+				\end{center}}
+			\end{block}
+		\end{column}
+
+	\end{columns}
+	\end{frame}
+
+\begin{frame}{Goal / Motivation}
+
+	Artificial SNN can already solve various cognitive task such as
+	\begin{itemize}
+		\item Memorization
+		\item Basic Logic
+		\item Simulation of Dynamic Systems
+		\item Control
+	\end{itemize}
+	Although with varying levels of biologic plausibility.
+	We set out to build a controlled dynamic system based on SNN using learning and biologic plausibility
+	\begin{itemize}
+		\item Allow for black-box deployment without manual parameter tuning\\
+		\item "Limit ourselves to use the brains capabilities to design a controller"\\
+	\end{itemize}
+\end{frame}
+
+
+\begin{frame}{Method}
+	\begin{block}{1. Simulate}
+		Use a spiking network to simulate a dynamic system
+	\end{block}
+
+	\begin{block}{2. Control}
+		Devise a control scheme to control the network output
+	\end{block}
+	\begin{block}{3. Learn}
+		Apply biologically plausible learning rules to our network
+	\end{block}
+
+	\begin{block}{4. Combine}
+		Integrate all three steps into a single controller
+	\end{block}
+
+\end{frame}
+
+
+\section{Simulation}\insertsectionpage
+
+\begin{frame}{Simulation of Linear systems}
+	Build NN that outputs $
+\end{frame}
+
+
+
+%██████   █████   ██████ ██   ██ ██    ██ ██████      ███████ ██      ██ ██████  ███████ ███████
+%██   ██ ██   ██ ██      ██  ██  ██    ██ ██   ██     ██      ██      ██ ██   ██ ██      ██
+%██████  ███████ ██      █████   ██    ██ ██████      ███████ ██      ██ ██   ██ █████   ███████
+%██   ██ ██   ██ ██      ██  ██  ██    ██ ██               ██ ██      ██ ██   ██ ██           ██
+%██████  ██   ██  ██████ ██   ██  ██████  ██          ███████ ███████ ██ ██████  ███████ ███████
+
+
+
+
+
+\begin{frame}{Autoencoder}
+	\begin{columns}[T]
+		\begin{column}{0.48\textwidth}
+			\begin{center}
+				\includegraphics[width=0.9\textwidth,trim= 3cm 5cm 3cm 6cm]{figures/autoencoder.png}
+			\end{center}
+		\end{column}
+
+		\begin{column}{0.48\textwidth}
+			\begin{center}
+				\includegraphics[width=0.9\textwidth]{figures/spikeplot.png}
+			\end{center}
+			\begin{equation}
+				\begin{aligned}
+					\hat{x} &= Do(t)\\
+					\dot{r} &= -\lambda r + o(t)
+				\end{aligned}
+			\end{equation}
+		\end{column}
+	\end{columns}
+
+\end{frame}
+
+
+\begin{frame}{Autoencoder II}
+	\begin{textblock*}{10pt}(550pt,20pt)
+		\small
+		\begin{equation*}
+		\dot{r} = -\lambda r + \sigma(t)
+		\end{equation*}
+	\end{textblock*}
+	\begin{columns}[T]
+		\begin{column}{0.48\textwidth}
+			\begin{center}
+				\includegraphics[width=0.9\textwidth,trim= 3cm 5cm 3cm 0cm]{figures/autoencoder2.png}
+			\end{center}
+		\end{column}
+
+		\begin{column}{0.48\textwidth}
+			\begin{equation}
+			\begin{aligned}
+			\dot{x} &= -\lambda x + c\\
+			\hat{x} &= Dr
+			\end{aligned}
+			\end{equation}
+		\end{column}
+	\end{columns}
+
+\end{frame}
+
+
+\begin{frame}{Autoencoder III}
+	\begin{textblock*}{10pt}(550pt,20pt)
+		\small
+		\begin{equation*}
+			\begin{aligned}
+				\dot{r} &= -\lambda r + o(t)\\
+				\hat{x} &= Dr
+			\end{aligned}
+		\end{equation*}
+	\end{textblock*}
+	\begin{columns}[T]
+		\begin{column}{0.48\textwidth}
+			\begin{center}
+				\includegraphics[width=0.9\textwidth,trim= 3cm 3cm 3cm 0cm]{figures/autoencoder3.png}
+			\end{center}
+
+			\begin{equation}
+			\dot{x} = c
+			\end{equation}
+		\end{column}
+
+		\begin{column}{0.48\textwidth}
+			\begin{center}
+				\includegraphics[width=0.9\textwidth,trim= 3cm 3cm 3cm 0cm]{figures/autoencoder4.png}
+			\end{center}
+
+			\begin{equation}
+			\dot{x} = Ax + c
+			\end{equation}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+\begin{frame}{Geometric}
+	\only<1->{
+	\begin{tikzpicture}[remember picture, overlay]
+		\node at (current page.north east) [xshift=-20cm, yshift=-8.85cm] {
+		\begin{tikzpicture}
+		\begin{axis}[
+		width=0.35\textwidth,
+		height=0.35\textwidth,
+		xlabel={$\Delta x_1$},
+		ylabel={$\Delta x_2$},
+		xmin =-0.9,
+		xmax = 0.9,
+		ymin = -0.9,
+		ymax = 0.9,
+		axis equal,
+		axis lines=middle,
+		enlargelimits=true,
+		xticklabels ={},
+		yticklabels = {},
+		xlabel style={
+			at={(ticklabel* cs:1.02)}, % Adjust the position of xlabel
+			anchor=north,
+		},
+		ylabel style={
+			at={(ticklabel* cs:1.02)}, % Adjust the position of ylabel
+			anchor=south,
+		},
+		]
+		\draw[->,violet,ultra thick](axis cs:0,0.0)--(axis cs: 0.5,0.5) node[midway,left,text=violet]{$\color{violet} \Gamma_1$};
+		\draw[->,teal,ultra thick](axis cs:0,0.0)--(axis cs: -0.5,0.5)node[midway,left,text=violet]{$\color{teal} \Gamma_2$};
+		\draw[->,red,ultra thick](axis cs:0,0.0)--(axis cs: 0.5,-0.5)node[midway,right,text=violet]{$\color{red} \Gamma_4$};
+		\draw[->,orange,ultra thick](axis cs:0,0.0)--(axis cs: -0.5,-0.5)node[midway,left,text=violet]{$\color{orange} \Gamma_3$};
+		\draw[draw = none,top color = white, middle color = white,bottom color = violet,shading angle = -90,opacity = 0.6,transform canvas = {rotate around={45:(axis cs: 0.0,0.0)}}] (axis cs:0.707,-5) rectangle (axis cs:0.9,5);
+		\draw[draw = none,top color = white, middle color = white,bottom color = teal,shading angle = -90,opacity = 0.6,transform canvas = {rotate around={135:(axis cs: 0.0,0.0)}}] (axis cs:0.707,-5) rectangle (axis cs:0.9,5);
+		\draw[draw = none,top color = white, middle color = white,bottom color = orange,shading angle = -90,opacity = 0.6,transform canvas = {rotate around={225:(axis cs: 0.0,0.0)}}] (axis cs:0.707,-5) rectangle (axis cs:0.9,5);
+		\draw[draw = none,top color = white, middle color = white,bottom color = red,shading angle = -90,opacity = 0.6,transform canvas = {rotate around={-45:(axis cs: 0.0,0.0)}}] (axis cs:0.707,-5) rectangle (axis cs:0.9,5);
+
+		\end{axis}
+		\end{tikzpicture}};
+	\end{tikzpicture}
+	}
+
+	\only<1>{
+	\begin{tikzpicture}[remember picture, overlay]
+		\node at (current page.north east) [xshift=-8cm, yshift=-7.5cm] {
+		\begin{tikzpicture}
+		\begin{axis}[
+		width=0.5\textwidth,
+		height=0.3\textwidth,
+		xlabel={$x_1$},
+		ylabel={$x_2$},
+		domain=0:3.5,
+		samples=100,
+		axis lines=middle,
+		enlargelimits=true,
+		clip mode=individual, % Ensure everything is shown
+		xticklabels ={},
+		yticklabels = {},
+		xlabel style={
+		at={(ticklabel* cs:0.5)}, % Adjust the position of xlabel
+			anchor=north,
+		},
+		ylabel style={
+			at={(ticklabel* cs:0.5)}, % Adjust the position of ylabel
+			anchor=south,
+			rotate=90, % Rotate ylabel by 90 degrees
+		},
+		]
+		\addplot[blue,thick] {0.28934*x^3 - 1.8178*x^2 + 2.6016*x^1 + 0.66431};
+		\draw[->,violet,ultra thick](axis cs:0,0.66)--(axis cs: 0.353553,1.01355);
+		\draw[->,teal,ultra thick](axis cs:0.353553,1.01355)--(axis cs: 5.55112e-17,1.36711);
+		\draw[->,violet,ultra thick](axis cs:5.55112e-17,1.36711)--(axis cs: 0.353553,1.72066);
+		\draw[->,red,ultra thick](axis cs:0.353553,1.72066)--(axis cs: 0.707107,1.36711);
+		\draw[->,violet,ultra thick](axis cs:0.707107,1.36711)--(axis cs: 1.06066,1.72066);
+		\draw[->,red,ultra thick](axis cs:1.06066,1.72066)--(axis cs: 1.41421,1.36711);
+		\draw[->,red,ultra thick](axis cs:1.41421,1.36711)--(axis cs: 1.76777,1.01355);
+		\draw[->,red,ultra thick](axis cs:1.76777,1.01355)--(axis cs: 2.12132,0.66);
+		\draw[->,red,ultra thick](axis cs:2.12132,0.66)--(axis cs: 2.47487,0.306447);
+		\draw[->,red,ultra thick](axis cs:2.47487,0.306447)--(axis cs: 2.82843,-0.0471068);
+		\draw[->,red,ultra thick](axis cs:2.82843,-0.0471068)--(axis cs: 3.18198,-0.40066);
+		\draw[->,violet,ultra thick](axis cs:3.18198,-0.40066)--(axis cs: 3.53553,-0.0471068);
+		\end{axis}
+		\end{tikzpicture}};
+	\end{tikzpicture}
+	}
+
+	\only<2->{
+	\begin{columns}[T]
+		\begin{column}{0.2\textwidth}
+
+		\end{column}
+		\begin{column}{0.6\textwidth}
+			Minimize the cost $J$ (Greedy)\\
+			\begin{equation}
+				J = \int_{0}^{T} \|x-\hat{x}\|^2_2 + C(r) \ dt
+			\end{equation}
+			\begin{equation}
+			\begin{aligned}
+				V_i=&\Gamma_i^T(x-\hat{x}) - \mu r_i\\
+				\dot{V}_i=&-\lambda_V V_i+\Gamma^Tc(t)\\
+				&+ W^fo(t) + W^sr(t)+\sigma_V \eta(t)\\
+				W^f =& \Gamma^T\Gamma + \mu I\\
+				W^s =& \Gamma^T\left(A + \lambda_dI\right)\Gamma
+			\end{aligned}
+			\end{equation}
+		\end{column}
+	\end{columns}
+	}
+
+\end{frame}
+
+
+
+\begin{frame}{Example Simple}
+	content...
+\end{frame}
+
+\begin{frame}{Example Big}
+	content...
+\end{frame}
+
+\begin{frame}{Conclusion}
+	content...
+\end{frame}
+
+
+\section{Control}\insertsectionpage
+
+\begin{frame}{Control Concept}
+	\begin{center}
+		\begin{tikzpicture}
+		% Include the picture
+			\node[anchor=south west, inner sep=0] (image) at (100pt,100pt) {\includegraphics[width=0.7\textwidth]{figures/control_1.png}};
+
+		% Overlay equation
+			\node[anchor=south west, align=left, opacity=1] at ([shift={(288pt,25pt)}]image.south west)  {\scalebox{0.7}{$
+			\begin{aligned}
+			\dot{x} &= Ax + Bu\\
+			y &= Cx
+			\end{aligned}
+			$}};
+
+			\node[anchor=south west, align=left, opacity=1] at ([shift={(380pt,50pt)}]image.south west)  {\scalebox{0.7}{$\hat{x}$}};
+			\node[anchor=south west, align=left, opacity=1] at ([shift={(210pt,50pt)}]image.south west)  {\scalebox{0.7}{$c$}};
+			\node[anchor=south west, align=left, opacity=1] at ([shift={(30pt,50pt)}]image.south west)  {\scalebox{0.7}{$\text{x}$}};
+		\end{tikzpicture}
+		%^^ add some separator here to control the distance between both plots
+		\todo{Add a separator here}
+		\pause
+
+		\begin{tikzpicture}
+		% Include the picture
+			\node[anchor=south west, inner sep=0] (image) at (100pt,100pt) {\includegraphics[width=0.7\textwidth]{figures/control_2.png}};
+
+		\node[anchor=south west, align=left, opacity=1] at ([shift={(380pt,60pt)}]image.south west)  {\scalebox{0.7}{$\hat{x}$}};
+		\node[anchor=south west, align=left, opacity=1] at ([shift={(210pt,60pt)}]image.south west)  {\scalebox{0.7}{$c$}};
+		\node[anchor=south west, align=left, opacity=1] at ([shift={(30pt,60pt)}]image.south west)  {\scalebox{0.7}{$\text{x}$}};
+		\end{tikzpicture}
+
+	\end{center}
+	\begin{textblock*}{50pt}(650pt,180pt)
+		\small
+		\cite{huang_spiking_2019}
+	\end{textblock*}
+\end{frame}
+
+\begin{frame}{Control with SNN}
+	\begin{columns}
+		\begin{column}{0.45\textwidth}
+			\begin{equation}
+				u = \Gamma r + \Omega o(t)
+			\end{equation}
+			Slow and Instantaneous decoding\\
+			\begin{equation}
+			\begin{aligned}
+			\dot{V}(t)= & -\lambda_V V(t)+\Omega^{\mathrm{T}} B^T A e(t)+\Omega^{\mathrm{T}} B^T c(t) \\
+			& +W^s r(t)+W^f o(t)+\sigma_v \eta(t)
+			\end{aligned}
+			\end{equation}
+			Requires full state information on $x$ and $\hat{x}$
+			\begin{equation}
+				c= \dot{x} - Ax
+			\end{equation}
+		\end{column}
+		\begin{column}{0.45\textwidth}
+			It is necessary on $B \in \mathbb{R}^{nxp}$
+			\begin{equation}
+				\rank(B^TC^T) = p
+			\end{equation}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+\begin{frame}{Example in Ideal Conditions}
+	\todo{works fine+ add plot}
+\end{frame}
+
+
+\begin{frame}{Example with 2 networks}
+	\todo{works bad+ add plot}
+\end{frame}
+
+\begin{frame}{Conclusion}
+	\pause
+	\begin{itemize}
+		\setlength\itemsep{1.5em}
+		\item Acceptable results in ideal conditions
+		\pause
+		\item Rank condition is limiting factor
+		\pause
+		\item Network noise is invisible to the control
+		\pause
+		\item Simple open loop controller in the definition of $c$
+	\end{itemize}
+\end{frame}
+
+\section{Learning}\insertsectionpage
+
+
+
+\begin{frame}{Fast Learning rule}
+	\begin{columns}
+		\begin{column}{0.45\textwidth}
+			\textbf{Slow Learning rule}\\
+			Online Teacher-Student Scheme
+
+		\end{column}
+		\begin{column}{0.45\textwidth}
+			\textbf{Fast Learning rule}\\
+			content...
+		\end{column}
+	\end{columns}
+\end{frame}
+
+\begin{frame}{Slow Learning rule}
+
+
+	\begin{textblock*}{10pt}(550pt,20pt)
+		\small
+		\begin{equation*}
+		\begin{aligned}
+			\dot{\hat{x}}=&(M-K \mathbf{I}) \hat{x}+c+K x\\
+			W^s =& \Gamma^T\left(A + \lambda_d\mathbf{I}\right)\Gamma
+		\end{aligned}
+		\end{equation*}
+	\end{textblock*}
+
+	\begin{columns}
+		\begin{column}{0.45\textwidth}
+			\begin{figure}
+				\centering
+				\includegraphics[width = 0.8\textwidth,trim= 0cm 0cm 0cm 8cm]{figures/slow_learning_rule.png}
+			\end{figure}
+			\begin{textblock*}{10pt}(300pt,240pt)
+				\small
+				\cite{bourdoukan_enforcing_2015}
+			\end{textblock*}
+		\end{column}
+		\begin{column}{0.45\textwidth}
+			Online Teacher-Student Scheme for $M$ under $\dot{x} = Mx +c$\\
+			Matrix update under squared loss
+			\begin{equation}
+				\delta M \propto e\hat{x}^T \longrightarrow\delta W^s \propto \Gamma \left(e\hat{x}^T\right)\Gamma^T \approx \Gamma er
+			\end{equation}
+			\todo{replace the F with $\Gamma$ in the picture!}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+
+
+\section{Learned Control}\insertsectionpage
+
+
+
+\section{Conclusion}\insertsectionpage
+\begin{frame}{Conclusion}
+	\begin{columns}
+		\begin{column}{0.45\textwidth}
+			\begin{itemize}
+				\setlength\itemsep{1.0em}
+				\item Very limited applicability
+				\item Open loop + rank condition limiting factor
+				\item Too inaccurate learning of slow weights $W^s$
+				\item Too dependent on initial conditions in learning
+			\end{itemize}
+		\end{column}
+		\vrule
+		\begin{column}{0.45\textwidth}
+			\begin{itemize}
+				\setlength\itemsep{1.0em}
+				\item In ideal conditions useable results achievable
+				\item Only of theoretical interest
+				\item Impressive accuracy
+				\item Results are somewhat translatable to NEF and LSMs
+			\end{itemize}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+
+
+
+\begin{frame}{Future Work}
+	\pause
+	\begin{itemize}[<+->]
+		\setlength\itemsep{1.5em}
+		\item Enable non-linear dynamics
+		\item Obey Dale's Law for neuron excitation and inhibition
+		\item Optimize Control
+		\item Learning of En- and Decoder $\Gamma$
+		\item Allow for synaptic delays
+	\end{itemize}
+\end{frame}
+
+
+\begin{frame}{Frame title}
+\begin{block}{Block}
+Lorem ipsum!
+\end{block}
+\end{frame}
+
+
+
+\begin{frame}{Bibliography}
+	\printbibliography
+\end{frame}
+
+
+\insertendpage
+\end{document}
