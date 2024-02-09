@@ -2344,15 +2344,20 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">references.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">huang_spiking_2019</bcf:citekey>
-    <bcf:citekey order="2">huang_spiking_2019</bcf:citekey>
+    <bcf:citekey order="1">Xue2022</bcf:citekey>
+    <bcf:citekey order="2">boerlin_predictive_2013</bcf:citekey>
     <bcf:citekey order="3">huang_spiking_2019</bcf:citekey>
-    <bcf:citekey order="4">huang_spiking_2019</bcf:citekey>
+    <bcf:citekey order="4">bourdoukan_enforcing_2015</bcf:citekey>
     <bcf:citekey order="5">huang_spiking_2019</bcf:citekey>
     <bcf:citekey order="6">huang_spiking_2019</bcf:citekey>
-    <bcf:citekey order="7">bourdoukan_enforcing_2015</bcf:citekey>
+    <bcf:citekey order="7">huang_spiking_2019</bcf:citekey>
     <bcf:citekey order="8">huang_spiking_2019</bcf:citekey>
-    <bcf:citekey order="9">bourdoukan_enforcing_2015</bcf:citekey>
+    <bcf:citekey order="9">huang_spiking_2019</bcf:citekey>
+    <bcf:citekey order="10">bourdoukan_enforcing_2015</bcf:citekey>
+    <bcf:citekey order="11">Xue2022</bcf:citekey>
+    <bcf:citekey order="12">boerlin_predictive_2013</bcf:citekey>
+    <bcf:citekey order="13">huang_spiking_2019</bcf:citekey>
+    <bcf:citekey order="14">bourdoukan_enforcing_2015</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="anyt">

@@ -1,17 +1,15 @@
-[0] Config.pm:304> INFO - This is Biber 2.14 (beta)
-[0] Config.pm:307> INFO - Logfile is 'sample.blg'
-[47] biber:322> INFO - === Tue Feb  6, 2024, 19:00:58
-[55] Biber.pm:415> INFO - Reading 'sample.bcf'
-[92] Biber.pm:943> INFO - Found 2 citekeys in bib section 0
-[99] Biber.pm:4256> INFO - Processing section 0
-[100] Utils.pm:75> INFO - Globbing data source 'references.bib'
-[100] Utils.pm:91> INFO - Globbed data source 'references.bib' to references.bib
-[105] Biber.pm:4455> INFO - Looking for bibtex format file 'references.bib' for section 0
-[106] bibtex.pm:1653> INFO - LaTeX decoding ...
-[111] bibtex.pm:1471> INFO - Found BibTeX data source 'references.bib'
-[137] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[137] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[137] Biber.pm:4084> INFO - Sorting list 'anyt/global//global/global' of type 'entry' with template 'anyt' and locale 'en-US'
-[137] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
-[141] bbl.pm:652> INFO - Writing 'sample.bbl' with encoding 'UTF-8'
-[142] bbl.pm:755> INFO - Output to sample.bbl
+[0] Config.pm:307> INFO - This is Biber 2.17
+[0] Config.pm:310> INFO - Logfile is 'sample.blg'
+[61] biber:340> INFO - === Fr Feb  9, 2024, 11:26:15
+[72] Biber.pm:418> INFO - Reading 'sample.bcf'
+[121] Biber.pm:972> INFO - Found 4 citekeys in bib section 0
+[130] Biber.pm:4383> INFO - Processing section 0
+[138] Biber.pm:4574> INFO - Looking for bibtex file 'references.bib' for section 0
+[139] bibtex.pm:1713> INFO - LaTeX decoding ...
+[145] bibtex.pm:1518> INFO - Found BibTeX data source 'references.bib'
+[195] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[195] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[196] Biber.pm:4203> INFO - Sorting list 'anyt/global//global/global' of type 'entry' with template 'anyt' and locale 'en-US'
+[196] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[203] bbl.pm:654> INFO - Writing 'sample.bbl' with encoding 'UTF-8'
+[206] bbl.pm:757> INFO - Output to sample.bbl

@@ -3,8 +3,9 @@
 \beamer@sectionintoc {4}{Control}{11}{0}{3}
 \beamer@sectionintoc {5}{Learning}{14}{0}{4}
 \beamer@sectionintoc {6}{Combined Learning}{17}{0}{5}
-\beamer@sectionintoc {7}{BackupSlides}{27}{0}{6}
-\beamer@sectionintoc {8}{Control}{37}{0}{7}
-\beamer@sectionintoc {9}{Learning}{48}{0}{8}
-\beamer@sectionintoc {10}{Learned Control}{51}{0}{9}
-\beamer@sectionintoc {11}{Conclusion}{52}{0}{10}
+\beamer@sectionintoc {7}{Conclusion}{28}{0}{6}
+\beamer@sectionintoc {9}{BackupSlides}{34}{0}{7}
+\beamer@sectionintoc {10}{Control}{43}{0}{8}
+\beamer@sectionintoc {11}{Learning}{54}{0}{9}
+\beamer@sectionintoc {12}{Learned Control}{57}{0}{10}
+\beamer@sectionintoc {13}{Conclusion}{58}{0}{11}

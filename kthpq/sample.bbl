@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.1 $
+% $ biblatex bbl format version 3.2 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -73,7 +73,7 @@
       \strng{editorfullhash}{95e40444732d7905041fa015b18cfa44}
       \field{labelalpha}{BD15}
       \field{sortinit}{B}
-      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Advances in Neural Information Processing Systems}
@@ -87,6 +87,68 @@
       \verb{url}
       \verb https://proceedings.neurips.cc/paper_files/paper/2015/file/3871bd64012152bfb53fdf04b401193f-Paper.pdf
       \endverb
+    \endentry
+    \entry{boerlin_predictive_2013}{article}{}
+      \name{author}{3}{}{%
+        {{hash=07addf469898a0368cac276cc0d4371e}{%
+           family={Boerlin},
+           familyi={B\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ffe881e395423136438b1d8d31ae69bc}{%
+           family={Machens},
+           familyi={M\bibinitperiod},
+           given={Christian\bibnamedelima K.},
+           giveni={C\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=201294632b58f6ed012c5cd061239c6d}{%
+           family={Denève},
+           familyi={D\bibinitperiod},
+           given={Sophie},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{8ed5436b264bd8cc823e87f548a49edf}
+      \strng{fullhash}{8ed5436b264bd8cc823e87f548a49edf}
+      \strng{bibnamehash}{8ed5436b264bd8cc823e87f548a49edf}
+      \strng{authorbibnamehash}{8ed5436b264bd8cc823e87f548a49edf}
+      \strng{authornamehash}{8ed5436b264bd8cc823e87f548a49edf}
+      \strng{authorfullhash}{8ed5436b264bd8cc823e87f548a49edf}
+      \field{labelalpha}{BMD13}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Two observations about the cortex have puzzled neuroscientists for a long time. First, neural responses are highly variable. Second, the level of excitation and inhibition received by each neuron is tightly balanced at all times. Here, we demonstrate that both properties are necessary consequences of neural networks that represent information efficiently in their spikes. We illustrate this insight with spiking networks that represent dynamical variables. Our approach is based on two assumptions: We assume that information about dynamical variables can be read out linearly from neural spike trains, and we assume that neurons only fire a spike if that improves the representation of the dynamical variables. Based on these assumptions, we derive a network of leaky integrate-and-fire neurons that is able to implement arbitrary linear dynamical systems. We show that the membrane voltage of the neurons is equivalent to a prediction error about a common population-level signal. Among other things, our approach allows us to construct an integrator network of spiking neurons that is robust against many perturbations. Most importantly, neural variability in our networks cannot be equated to noise. Despite exhibiting the same single unit properties as widely used population code models (e.g. tuning curves, Poisson distributed spike trains), balanced networks are orders of magnitudes more reliable. Our approach suggests that spikes do matter when considering how the brain computes, and that the reliability of cortical representations could have been strongly underestimated.}
+      \field{day}{14}
+      \field{issn}{1553-7358}
+      \field{journaltitle}{{PLOS} Computational Biology}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{note}{Publisher: Public Library of Science}
+      \field{number}{11}
+      \field{shortjournal}{{PLOS} Computational Biology}
+      \field{title}{Predictive Coding of Dynamical Variables in Balanced Spiking Networks}
+      \field{urlday}{20}
+      \field{urlmonth}{9}
+      \field{urlyear}{2022}
+      \field{volume}{9}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{e1003258}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1371/journal.pcbi.1003258
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/max/Zotero/storage/PA8LXANX/Boerlin et al. - 2013 - Predictive Coding of Dynamical Variables in Balanc.pdf:application/pdf;Snapshot:/home/max/Zotero/storage/ACMFCVFE/article.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003258
+      \endverb
+      \verb{url}
+      \verb https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003258
+      \endverb
+      \keyw{Neurons,Action potentials,Dynamical systems,Membrane potential,Network analysis,Neural networks,Neuronal tuning,Sensory perception}
     \endentry
     \entry{huang_spiking_2019}{article}{}
       \name{author}{2}{}{%
@@ -109,7 +171,7 @@
       \strng{authorfullhash}{8d9498741bc67be4a06d23e33e9995f4}
       \field{labelalpha}{HC19}
       \field{sortinit}{H}
-      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0340-1200, 1432-0770}
@@ -136,6 +198,63 @@
       \endverb
       \verb{url}
       \verb http://link.springer.com/10.1007/s00422-018-0769-7
+      \endverb
+    \endentry
+    \entry{Xue2022}{article}{}
+      \name{author}{4}{}{%
+        {{hash=63889708e066405f189a8f86e593d305}{%
+           family={Xue},
+           familyi={X\bibinitperiod},
+           given={Xiaohe},
+           giveni={X\bibinitperiod}}}%
+        {{hash=f31058b7f1e33c37cc731851da85fe3c}{%
+           family={Wimmer},
+           familyi={W\bibinitperiod},
+           given={Ralf\bibnamedelima D.},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=cfdec01d536b66bdb2cf3f5f07fbb558}{%
+           family={Halassa},
+           familyi={H\bibinitperiod},
+           given={Michael\bibnamedelima M.},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=fdbc6b6d792613bb62ecb9298667b06b}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Zhe\bibnamedelima Sage},
+           giveni={Z\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{7b64b5914ff536d43368f8407bc26334}
+      \strng{fullhash}{122f20e205fc5984bf5bd1f0a443251e}
+      \strng{bibnamehash}{122f20e205fc5984bf5bd1f0a443251e}
+      \strng{authorbibnamehash}{122f20e205fc5984bf5bd1f0a443251e}
+      \strng{authornamehash}{7b64b5914ff536d43368f8407bc26334}
+      \strng{authorfullhash}{122f20e205fc5984bf5bd1f0a443251e}
+      \field{labelalpha}{Xue+22}
+      \field{sortinit}{X}
+      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1866-9964}
+      \field{journaltitle}{Cognitive Computation}
+      \field{month}{2}
+      \field{number}{4}
+      \field{title}{Spiking Recurrent Neural Networks Represent Task-Relevant Neural Sequences in Rule-Dependent Computation}
+      \field{volume}{15}
+      \field{year}{2022}
+      \field{pages}{1167\bibrangedash 1189}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.1007/s12559-022-09994-2
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1007/s12559-022-09994-2
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/s12559-022-09994-2
       \endverb
     \endentry
   \enddatalist
