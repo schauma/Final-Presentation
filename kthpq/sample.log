@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.14.0 (TeX Live 2022/dev/Debian)  (format=lualatex 2024.1.16)  9 FEB 2024 11:30
+This is LuaHBTeX, Version 1.14.0 (TeX Live 2022/dev/Debian)  (format=lualatex 2024.1.16)  9 FEB 2024 11:38
  restricted system commands enabled.
 **sample.tex
 (./sample.tex
@@ -1982,12 +1982,12 @@ Package luatex.def Info: kthpq-files/figs//lines/Linjemonster_himmelsbla_RGB_1x
 <figures/control_1.png, id=217, 1593.70406pt x 322.95656pt>
 File: figures/control_1.png Graphic file (type png)
 <use figures/control_1.png>
-Package luatex.def Info: figures/control_1.png  used on input line 289.
+Package luatex.def Info: figures/control_1.png  used on input line 288.
 (luatex.def)             Requested size: 460.74298pt x 93.36424pt.
 File: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf Graphic file (type pdf)
 <use kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf>
 Package luatex.def Info: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf  used on i
-nput line 289.
+nput line 288.
 (luatex.def)             Requested size: 48.36967pt x 54.19899pt.
  [12
 
@@ -1995,7 +1995,7 @@ nput line 289.
 File: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf Graphic file (type pdf)
 <use kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf>
 Package luatex.def Info: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf  used on i
-nput line 303.
+nput line 302.
 (luatex.def)             Requested size: 48.36967pt x 54.19899pt.
 
 [13
@@ -2004,18 +2004,18 @@ nput line 303.
 File: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf Graphic file (type pdf)
 <use kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf>
 Package luatex.def Info: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf  used on i
-nput line 306.
+nput line 305.
 (luatex.def)             Requested size: 68.2866pt x 76.5152pt.
 File: kthpq-files/figs//lines/Linjemonster_himmelsbla_RGB_1x1.pdf Graphic file 
 (type pdf)
 <use kthpq-files/figs//lines/Linjemonster_himmelsbla_RGB_1x1.pdf>
 Package luatex.def Info: kthpq-files/figs//lines/Linjemonster_himmelsbla_RGB_1x
-1.pdf  used on input line 306.
+1.pdf  used on input line 305.
 (luatex.def)             Requested size: 813.03552pt x 813.03552pt.
  [14
 
 ]
-Overfull \hbox (94.31602pt too wide) detected at line 338
+Overfull \hbox (94.31602pt too wide) detected at line 337
 []\TU/Figtree-Italic(0)/m/n/17.28 V[] \TU/FiraMathRegular(1)/m/n/17.28 = \TU/Fi
 gtree-Italic(0)/m/n/17.28 F[]\TU/FiraMathRegular(1)/m/n/17.28 (\TU/Figtree-Ital
 ic(0)/m/n/17.28 x \TU/FiraMathRegular(1)/m/n/17.28 − []) − 𝜇\TU/Figtree-
@@ -2025,7 +2025,7 @@ Italic(0)/m/n/17.28 r[]
 File: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf Graphic file (type pdf)
 <use kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf>
 Package luatex.def Info: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf  used on i
-nput line 338.
+nput line 337.
 (luatex.def)             Requested size: 48.36967pt x 54.19899pt.
 [15
 
@@ -2033,7 +2033,7 @@ nput line 338.
 File: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf Graphic file (type pdf)
 <use kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf>
 Package luatex.def Info: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf  used on i
-nput line 352.
+nput line 351.
 (luatex.def)             Requested size: 48.36967pt x 54.19899pt.
  [16
 
@@ -2041,86 +2041,86 @@ nput line 352.
 File: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf Graphic file (type pdf)
 <use kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf>
 Package luatex.def Info: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf  used on i
-nput line 355.
+nput line 354.
 (luatex.def)             Requested size: 68.2866pt x 76.5152pt.
 File: kthpq-files/figs//lines/Linjemonster_himmelsbla_RGB_1x1.pdf Graphic file 
 (type pdf)
 <use kthpq-files/figs//lines/Linjemonster_himmelsbla_RGB_1x1.pdf>
 Package luatex.def Info: kthpq-files/figs//lines/Linjemonster_himmelsbla_RGB_1x
-1.pdf  used on input line 355.
+1.pdf  used on input line 354.
 (luatex.def)             Requested size: 813.03552pt x 813.03552pt.
  [17
 
 ]
 File: figures/control_1.png Graphic file (type png)
 <use figures/control_1.png>
-Package luatex.def Info: figures/control_1.png  used on input line 416.
+Package luatex.def Info: figures/control_1.png  used on input line 415.
 (luatex.def)             Requested size: 460.74298pt x 93.36424pt.
 <figures/control_2.png, id=264, 1637.36719pt x 412.54124pt>
 File: figures/control_2.png Graphic file (type png)
 <use figures/control_2.png>
-Package luatex.def Info: figures/control_2.png  used on input line 416.
+Package luatex.def Info: figures/control_2.png  used on input line 415.
 (luatex.def)             Requested size: 460.74298pt x 116.08359pt.
 File: figures/control_2.png Graphic file (type png)
 <use figures/control_2.png>
-Package luatex.def Info: figures/control_2.png  used on input line 416.
+Package luatex.def Info: figures/control_2.png  used on input line 415.
 (luatex.def)             Requested size: 460.74298pt x 116.08359pt.
 
-Overfull \vbox (27.66328pt too high) detected at line 416
+Overfull \vbox (27.66328pt too high) detected at line 415
  []
 
 File: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf Graphic file (type pdf)
 <use kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf>
 Package luatex.def Info: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf  used on i
-nput line 416.
+nput line 415.
 (luatex.def)             Requested size: 48.36967pt x 54.19899pt.
 [18
 
 <./figures/control_2.png>]
 File: figures/control_1.png Graphic file (type png)
 <use figures/control_1.png>
-Package luatex.def Info: figures/control_1.png  used on input line 416.
+Package luatex.def Info: figures/control_1.png  used on input line 415.
 (luatex.def)             Requested size: 460.74298pt x 93.36424pt.
 File: figures/control_2.png Graphic file (type png)
 <use figures/control_2.png>
-Package luatex.def Info: figures/control_2.png  used on input line 416.
+Package luatex.def Info: figures/control_2.png  used on input line 415.
 (luatex.def)             Requested size: 460.74298pt x 116.08359pt.
 File: figures/control_2.png Graphic file (type png)
 <use figures/control_2.png>
-Package luatex.def Info: figures/control_2.png  used on input line 416.
+Package luatex.def Info: figures/control_2.png  used on input line 415.
 (luatex.def)             Requested size: 460.74298pt x 116.08359pt.
 
-Overfull \vbox (27.66328pt too high) detected at line 416
+Overfull \vbox (27.66328pt too high) detected at line 415
  []
 
 File: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf Graphic file (type pdf)
 <use kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf>
 Package luatex.def Info: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf  used on i
-nput line 416.
+nput line 415.
 (luatex.def)             Requested size: 48.36967pt x 54.19899pt.
 [19
 
 ]
 File: figures/control_1.png Graphic file (type png)
 <use figures/control_1.png>
-Package luatex.def Info: figures/control_1.png  used on input line 416.
+Package luatex.def Info: figures/control_1.png  used on input line 415.
 (luatex.def)             Requested size: 460.74298pt x 93.36424pt.
 File: figures/control_2.png Graphic file (type png)
 <use figures/control_2.png>
-Package luatex.def Info: figures/control_2.png  used on input line 416.
+Package luatex.def Info: figures/control_2.png  used on input line 415.
 (luatex.def)             Requested size: 460.74298pt x 116.08359pt.
 File: figures/control_2.png Graphic file (type png)
 <use figures/control_2.png>
-Package luatex.def Info: figures/control_2.png  used on input line 416.
+Package luatex.def Info: figures/control_2.png  used on input line 415.
 (luatex.def)             Requested size: 460.74298pt x 116.08359pt.
 
-Overfull \vbox (27.66328pt too high) detected at line 416
+Overfull \vbox (27.66328pt too high) detected at line 415
  []
 
 File: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf Graphic file (type pdf)
 <use kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf>
 Package luatex.def Info: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf  used on i
-nput line 416.
+nput line 415.
 (luatex.def)             Requested size: 48.36967pt x 54.19899pt.
 [20
 
@@ -2128,46 +2128,46 @@ nput line 416.
 <figures/control_4.png, id=290, 2206.49344pt x 720.44156pt>
 File: figures/control_4.png Graphic file (type png)
 <use figures/control_4.png>
-Package luatex.def Info: figures/control_4.png  used on input line 460.
+Package luatex.def Info: figures/control_4.png  used on input line 459.
 (luatex.def)             Requested size: 2206.48808pt x 720.43979pt.
 
-Overfull \hbox (215.7921pt too wide) in paragraph at lines 460--460
+Overfull \hbox (215.7921pt too wide) in paragraph at lines 459--459
 [][]  
  []
 
 <figures/control_3.png, id=291, 1632.0975pt x 582.67688pt>
 File: figures/control_3.png Graphic file (type png)
 <use figures/control_3.png>
-Package luatex.def Info: figures/control_3.png  used on input line 460.
+Package luatex.def Info: figures/control_3.png  used on input line 459.
 (luatex.def)             Requested size: 1632.09354pt x 582.67546pt.
 
-Overfull \hbox (196.08446pt too wide) in paragraph at lines 460--460
+Overfull \hbox (196.08446pt too wide) in paragraph at lines 459--459
 [][]  
  []
 
 <figures/control_5.png, id=292, 1254.93843pt x 416.30531pt>
 File: figures/control_5.png Graphic file (type png)
 <use figures/control_5.png>
-Package luatex.def Info: figures/control_5.png  used on input line 460.
+Package luatex.def Info: figures/control_5.png  used on input line 459.
 (luatex.def)             Requested size: 1254.93538pt x 416.30429pt.
 
-Overfull \hbox (139.51303pt too wide) in paragraph at lines 460--460
+Overfull \hbox (139.51303pt too wide) in paragraph at lines 459--459
 [][]  
  []
 
 File: figures/control_2.png Graphic file (type png)
 <use figures/control_2.png>
-Package luatex.def Info: figures/control_2.png  used on input line 460.
+Package luatex.def Info: figures/control_2.png  used on input line 459.
 (luatex.def)             Requested size: 1637.36322pt x 412.54024pt.
 
-Overfull \hbox (196.87488pt too wide) in paragraph at lines 460--460
+Overfull \hbox (196.87488pt too wide) in paragraph at lines 459--459
 [][]  
  []
 
 File: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf Graphic file (type pdf)
 <use kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf>
 Package luatex.def Info: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf  used on i
-nput line 460.
+nput line 459.
 (luatex.def)             Requested size: 48.36967pt x 54.19899pt.
 [21
 
@@ -2175,75 +2175,75 @@ nput line 460.
 File: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf Graphic file (type pdf)
 <use kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf>
 Package luatex.def Info: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf  used on i
-nput line 472.
+nput line 471.
 (luatex.def)             Requested size: 48.36967pt x 54.19899pt.
 [22
 
 ]
 File: figures/control_2.png Graphic file (type png)
 <use figures/control_2.png>
-Package luatex.def Info: figures/control_2.png  used on input line 536.
+Package luatex.def Info: figures/control_2.png  used on input line 535.
 (luatex.def)             Requested size: 1637.36322pt x 412.54024pt.
 
-Overfull \hbox (196.87488pt too wide) in paragraph at lines 536--536
+Overfull \hbox (196.87488pt too wide) in paragraph at lines 535--535
 [][]  
  []
 
 File: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf Graphic file (type pdf)
 <use kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf>
 Package luatex.def Info: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf  used on i
-nput line 536.
+nput line 535.
 (luatex.def)             Requested size: 48.36967pt x 54.19899pt.
 [23
 
 ]
 File: figures/control_3.png Graphic file (type png)
 <use figures/control_3.png>
-Package luatex.def Info: figures/control_3.png  used on input line 536.
+Package luatex.def Info: figures/control_3.png  used on input line 535.
 (luatex.def)             Requested size: 1632.09354pt x 582.67546pt.
 
-Overfull \hbox (195.44426pt too wide) in paragraph at lines 536--536
+Overfull \hbox (195.44426pt too wide) in paragraph at lines 535--535
 [][]  
  []
 
 File: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf Graphic file (type pdf)
 <use kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf>
 Package luatex.def Info: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf  used on i
-nput line 536.
+nput line 535.
 (luatex.def)             Requested size: 48.36967pt x 54.19899pt.
 [24
 
 ]
 File: figures/control_5.png Graphic file (type png)
 <use figures/control_5.png>
-Package luatex.def Info: figures/control_5.png  used on input line 536.
+Package luatex.def Info: figures/control_5.png  used on input line 535.
 (luatex.def)             Requested size: 1254.93538pt x 416.30429pt.
 
-Overfull \hbox (138.87283pt too wide) in paragraph at lines 536--536
+Overfull \hbox (138.87283pt too wide) in paragraph at lines 535--535
 [][]  
  []
 
 File: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf Graphic file (type pdf)
 <use kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf>
 Package luatex.def Info: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf  used on i
-nput line 536.
+nput line 535.
 (luatex.def)             Requested size: 48.36967pt x 54.19899pt.
 [25
 
 ]
 File: figures/control_4.png Graphic file (type png)
 <use figures/control_4.png>
-Package luatex.def Info: figures/control_4.png  used on input line 536.
+Package luatex.def Info: figures/control_4.png  used on input line 535.
 (luatex.def)             Requested size: 2206.48808pt x 720.43979pt.
 
-Overfull \hbox (215.27994pt too wide) in paragraph at lines 536--536
+Overfull \hbox (215.27994pt too wide) in paragraph at lines 535--535
 [][]  
  []
 
 File: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf Graphic file (type pdf)
 <use kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf>
 Package luatex.def Info: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf  used on i
-nput line 536.
+nput line 535.
 (luatex.def)             Requested size: 48.36967pt x 54.19899pt.
 [26
 
@@ -2251,7 +2251,7 @@ nput line 536.
 File: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf Graphic file (type pdf)
 <use kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf>
 Package luatex.def Info: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf  used on i
-nput line 548.
+nput line 547.
 (luatex.def)             Requested size: 48.36967pt x 54.19899pt.
  [27
 
@@ -2259,13 +2259,13 @@ nput line 548.
 File: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf Graphic file (type pdf)
 <use kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf>
 Package luatex.def Info: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf  used on i
-nput line 552.
+nput line 551.
 (luatex.def)             Requested size: 68.2866pt x 76.5152pt.
 File: kthpq-files/figs//lines/Linjemonster_himmelsbla_RGB_1x1.pdf Graphic file 
 (type pdf)
 <use kthpq-files/figs//lines/Linjemonster_himmelsbla_RGB_1x1.pdf>
 Package luatex.def Info: kthpq-files/figs//lines/Linjemonster_himmelsbla_RGB_1x
-1.pdf  used on input line 552.
+1.pdf  used on input line 551.
 (luatex.def)             Requested size: 813.03552pt x 813.03552pt.
  [28
 
@@ -2273,7 +2273,7 @@ Package luatex.def Info: kthpq-files/figs//lines/Linjemonster_himmelsbla_RGB_1x
 File: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf Graphic file (type pdf)
 <use kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf>
 Package luatex.def Info: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf  used on i
-nput line 576.
+nput line 575.
 (luatex.def)             Requested size: 48.36967pt x 54.19899pt.
  [29
 
@@ -2281,35 +2281,35 @@ nput line 576.
 File: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf Graphic file (type pdf)
 <use kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf>
 Package luatex.def Info: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf  used on i
-nput line 590.
+nput line 589.
 (luatex.def)             Requested size: 48.36967pt x 54.19899pt.
  [30
 
 ]
 LaTeX Font Info:    Font shape `TU/Beramono(0)/m/n' will be
-(Font)              scaled to size 12.24008pt on input line 597.
+(Font)              scaled to size 12.24008pt on input line 596.
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(1)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 597.
+(Font)              scaled to size 14.4pt on input line 596.
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(1)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 597.
+(Font)              scaled to size 10.0pt on input line 596.
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(1)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 597.
+(Font)              scaled to size 7.0pt on input line 596.
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
-(Font)              scaled to size 14.40152pt on input line 597.
+(Font)              scaled to size 14.40152pt on input line 596.
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
-(Font)              scaled to size 10.00107pt on input line 597.
+(Font)              scaled to size 10.00107pt on input line 596.
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
-(Font)              scaled to size 7.00075pt on input line 597.
+(Font)              scaled to size 7.00075pt on input line 596.
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
-(Font)              scaled to size 14.39845pt on input line 597.
+(Font)              scaled to size 14.39845pt on input line 596.
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
-(Font)              scaled to size 9.99893pt on input line 597.
+(Font)              scaled to size 9.99893pt on input line 596.
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
-(Font)              scaled to size 6.99925pt on input line 597.
+(Font)              scaled to size 6.99925pt on input line 596.
 File: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf Graphic file (type pdf)
 <use kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf>
 Package luatex.def Info: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf  used on i
-nput line 597.
+nput line 596.
 (luatex.def)             Requested size: 48.36967pt x 54.19899pt.
  [31
 
@@ -2317,61 +2317,45 @@ nput line 597.
 File: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf Graphic file (type pdf)
 <use kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf>
 Package luatex.def Info: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf  used on i
-nput line 597.
+nput line 596.
 (luatex.def)             Requested size: 48.36967pt x 54.19899pt.
  [32
 
 
 ]
-<kthpq-files/figs//logo/KTH_logo_RGB_vit.pdf, id=392, 337.26pt x 377.91188pt>
-File: kthpq-files/figs//logo/KTH_logo_RGB_vit.pdf Graphic file (type pdf)
-<use kthpq-files/figs//logo/KTH_logo_RGB_vit.pdf>
-Package luatex.def Info: kthpq-files/figs//logo/KTH_logo_RGB_vit.pdf  used on i
-nput line 600.
-(luatex.def)             Requested size: 170.71652pt x 191.29665pt.
-File: kthpq-files/figs//lines/Linjemonster_himmelsbla_RGB_1x1.pdf Graphic file 
-(type pdf)
-<use kthpq-files/figs//lines/Linjemonster_himmelsbla_RGB_1x1.pdf>
-Package luatex.def Info: kthpq-files/figs//lines/Linjemonster_himmelsbla_RGB_1x
-1.pdf  used on input line 600.
-(luatex.def)             Requested size: 813.03552pt x 813.03552pt.
-File: kthpq-files/figs//lines/Linjemonster_himmelsbla_RGB_1x1.pdf Graphic file 
-(type pdf)
-<use kthpq-files/figs//lines/Linjemonster_himmelsbla_RGB_1x1.pdf>
-Package luatex.def Info: kthpq-files/figs//lines/Linjemonster_himmelsbla_RGB_1x
-1.pdf  used on input line 600.
-(luatex.def)             Requested size: 813.03552pt x 813.03552pt.
- [33
-
-<./kthpq-files/figs//logo/KTH_logo_RGB_vit.pdf>]
 File: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf Graphic file (type pdf)
 <use kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf>
 Package luatex.def Info: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf  used on i
-nput line 616.
+nput line 615.
 (luatex.def)             Requested size: 68.2866pt x 76.5152pt.
 File: kthpq-files/figs//lines/Linjemonster_himmelsbla_RGB_1x1.pdf Graphic file 
 (type pdf)
 <use kthpq-files/figs//lines/Linjemonster_himmelsbla_RGB_1x1.pdf>
 Package luatex.def Info: kthpq-files/figs//lines/Linjemonster_himmelsbla_RGB_1x
-1.pdf  used on input line 616.
+1.pdf  used on input line 615.
 (luatex.def)             Requested size: 813.03552pt x 813.03552pt.
- [34
+ [33
 
 ]
-<figures/autoencoder.png, id=404, 1474.50874pt x 1159.33125pt>
+<figures/autoencoder.png, id=398, 1474.50874pt x 1159.33125pt>
 File: figures/autoencoder.png Graphic file (type png)
 <use figures/autoencoder.png>
-Package luatex.def Info: figures/autoencoder.png  used on input line 639.
+Package luatex.def Info: figures/autoencoder.png  used on input line 638.
 (luatex.def)             Requested size: 284.341pt x 184.57059pt.
-<figures/spikeplot.png, id=405, 367.1316pt x 133.6995pt>
+<figures/spikeplot.png, id=399, 367.1316pt x 133.6995pt>
 File: figures/spikeplot.png Graphic file (type png)
 <use figures/spikeplot.png>
-Package luatex.def Info: figures/spikeplot.png  used on input line 639.
+Package luatex.def Info: figures/spikeplot.png  used on input line 638.
 (luatex.def)             Requested size: 284.341pt x 103.55074pt.
- [35
+File: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf Graphic file (type pdf)
+<use kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf>
+Package luatex.def Info: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf  used on i
+nput line 638.
+(luatex.def)             Requested size: 48.36967pt x 54.19899pt.
+ [34
 
 <./figures/autoencoder.png><./figures/spikeplot.png>]
-Overfull \hbox (61.92146pt too wide) detected at line 666
+Overfull \hbox (61.92146pt too wide) detected at line 665
 [][] \TU/FiraMathRegular(1)/m/n/14.4 = −𝜆\TU/Figtree-Italic(0)/m/n/14.4 r 
 \TU/FiraMathRegular(1)/m/n/14.4 + 𝜎(\TU/Figtree-Italic(0)/m/n/14.4 t\TU/Fira
 MathRegular(1)/m/n/14.4 )
@@ -2379,146 +2363,276 @@ MathRegular(1)/m/n/14.4 )
 
 File: figures/autoencoder2.png Graphic file (type png)
 <use figures/autoencoder2.png>
-Package luatex.def Info: figures/autoencoder2.png  used on input line 666.
+Package luatex.def Info: figures/autoencoder2.png  used on input line 665.
 (luatex.def)             Requested size: 284.341pt x 114.48311pt.
-[36
+File: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf Graphic file (type pdf)
+<use kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf>
+Package luatex.def Info: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf  used on i
+nput line 665.
+(luatex.def)             Requested size: 48.36967pt x 54.19899pt.
+[35
 
 ]
-Overfull \hbox (69.67496pt too wide) detected at line 700
+Overfull \hbox (69.67496pt too wide) detected at line 699
 [][][]
  []
 
-<figures/autoencoder3.png, id=419, 1120.9378pt x 578.16pt>
+<figures/autoencoder3.png, id=417, 1120.9378pt x 578.16pt>
 File: figures/autoencoder3.png Graphic file (type png)
 <use figures/autoencoder3.png>
-Package luatex.def Info: figures/autoencoder3.png  used on input line 700.
+Package luatex.def Info: figures/autoencoder3.png  used on input line 699.
 (luatex.def)             Requested size: 284.341pt x 147.45816pt.
-<figures/autoencoder4.png, id=420, 1120.9378pt x 578.16pt>
+<figures/autoencoder4.png, id=418, 1120.9378pt x 578.16pt>
 File: figures/autoencoder4.png Graphic file (type png)
 <use figures/autoencoder4.png>
-Package luatex.def Info: figures/autoencoder4.png  used on input line 700.
+Package luatex.def Info: figures/autoencoder4.png  used on input line 699.
 (luatex.def)             Requested size: 284.341pt x 147.45816pt.
 
-Overfull \vbox (12.4254pt too high) detected at line 700
+Overfull \vbox (12.4254pt too high) detected at line 699
  []
 
-[37
+File: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf Graphic file (type pdf)
+<use kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf>
+Package luatex.def Info: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf  used on i
+nput line 699.
+(luatex.def)             Requested size: 48.36967pt x 54.19899pt.
+[36
 
-<./figures/autoencoder3.png><./figures/autoencoder4.png>] [38
+<./figures/autoencoder3.png><./figures/autoencoder4.png>]
+File: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf Graphic file (type pdf)
+<use kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf>
+Package luatex.def Info: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf  used on i
+nput line 810.
+(luatex.def)             Requested size: 48.36967pt x 54.19899pt.
+ [37
 
 ]
-Overfull \vbox (3.84763pt too high) detected at line 811
+Overfull \vbox (3.84763pt too high) detected at line 810
  []
 
-[39
-
-] [40
-
-] [41
-
-] [42
+File: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf Graphic file (type pdf)
+<use kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf>
+Package luatex.def Info: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf  used on i
+nput line 810.
+(luatex.def)             Requested size: 48.36967pt x 54.19899pt.
+[38
 
 ]
 File: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf Graphic file (type pdf)
 <use kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf>
 Package luatex.def Info: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf  used on i
-nput line 828.
+nput line 816.
+(luatex.def)             Requested size: 48.36967pt x 54.19899pt.
+ [39
+
+]
+File: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf Graphic file (type pdf)
+<use kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf>
+Package luatex.def Info: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf  used on i
+nput line 820.
+(luatex.def)             Requested size: 48.36967pt x 54.19899pt.
+ [40
+
+]
+File: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf Graphic file (type pdf)
+<use kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf>
+Package luatex.def Info: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf  used on i
+nput line 824.
+(luatex.def)             Requested size: 48.36967pt x 54.19899pt.
+ [41
+
+]
+File: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf Graphic file (type pdf)
+<use kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf>
+Package luatex.def Info: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf  used on i
+nput line 827.
 (luatex.def)             Requested size: 68.2866pt x 76.5152pt.
 File: kthpq-files/figs//lines/Linjemonster_himmelsbla_RGB_1x1.pdf Graphic file 
 (type pdf)
 <use kthpq-files/figs//lines/Linjemonster_himmelsbla_RGB_1x1.pdf>
 Package luatex.def Info: kthpq-files/figs//lines/Linjemonster_himmelsbla_RGB_1x
-1.pdf  used on input line 828.
+1.pdf  used on input line 827.
 (luatex.def)             Requested size: 813.03552pt x 813.03552pt.
+ [42
+
+]
+File: figures/control_1.png Graphic file (type png)
+<use figures/control_1.png>
+Package luatex.def Info: figures/control_1.png  used on input line 865.
+(luatex.def)             Requested size: 460.74298pt x 93.36424pt.
+File: figures/control_2.png Graphic file (type png)
+<use figures/control_2.png>
+Package luatex.def Info: figures/control_2.png  used on input line 865.
+(luatex.def)             Requested size: 460.74298pt x 116.08359pt.
+File: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf Graphic file (type pdf)
+<use kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf>
+Package luatex.def Info: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf  used on i
+nput line 865.
+(luatex.def)             Requested size: 48.36967pt x 54.19899pt.
  [43
 
 ]
 File: figures/control_1.png Graphic file (type png)
 <use figures/control_1.png>
-Package luatex.def Info: figures/control_1.png  used on input line 866.
+Package luatex.def Info: figures/control_1.png  used on input line 865.
 (luatex.def)             Requested size: 460.74298pt x 93.36424pt.
 File: figures/control_2.png Graphic file (type png)
 <use figures/control_2.png>
-Package luatex.def Info: figures/control_2.png  used on input line 866.
+Package luatex.def Info: figures/control_2.png  used on input line 865.
 (luatex.def)             Requested size: 460.74298pt x 116.08359pt.
+File: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf Graphic file (type pdf)
+<use kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf>
+Package luatex.def Info: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf  used on i
+nput line 865.
+(luatex.def)             Requested size: 48.36967pt x 54.19899pt.
  [44
 
 ]
-File: figures/control_1.png Graphic file (type png)
-<use figures/control_1.png>
-Package luatex.def Info: figures/control_1.png  used on input line 866.
-(luatex.def)             Requested size: 460.74298pt x 93.36424pt.
-File: figures/control_2.png Graphic file (type png)
-<use figures/control_2.png>
-Package luatex.def Info: figures/control_2.png  used on input line 866.
-(luatex.def)             Requested size: 460.74298pt x 116.08359pt.
- [45
-
-]
-Overfull \vbox (11.85915pt too high) detected at line 893
+Overfull \vbox (11.85915pt too high) detected at line 892
  []
 
-[46
-
-] [47
-
-] [48
-
-] [49
-
-] [50
-
-] [51
-
-] [52
-
-] [53
+File: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf Graphic file (type pdf)
+<use kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf>
+Package luatex.def Info: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf  used on i
+nput line 892.
+(luatex.def)             Requested size: 48.36967pt x 54.19899pt.
+[45
 
 ]
 File: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf Graphic file (type pdf)
 <use kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf>
 Package luatex.def Info: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf  used on i
-nput line 918.
+nput line 896.
+(luatex.def)             Requested size: 48.36967pt x 54.19899pt.
+ [46
+
+]
+File: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf Graphic file (type pdf)
+<use kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf>
+Package luatex.def Info: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf  used on i
+nput line 901.
+(luatex.def)             Requested size: 48.36967pt x 54.19899pt.
+ [47
+
+]
+File: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf Graphic file (type pdf)
+<use kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf>
+Package luatex.def Info: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf  used on i
+nput line 915.
+(luatex.def)             Requested size: 48.36967pt x 54.19899pt.
+ [48
+
+]
+File: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf Graphic file (type pdf)
+<use kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf>
+Package luatex.def Info: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf  used on i
+nput line 915.
+(luatex.def)             Requested size: 48.36967pt x 54.19899pt.
+ [49
+
+]
+File: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf Graphic file (type pdf)
+<use kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf>
+Package luatex.def Info: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf  used on i
+nput line 915.
+(luatex.def)             Requested size: 48.36967pt x 54.19899pt.
+ [50
+
+]
+File: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf Graphic file (type pdf)
+<use kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf>
+Package luatex.def Info: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf  used on i
+nput line 915.
+(luatex.def)             Requested size: 48.36967pt x 54.19899pt.
+ [51
+
+]
+File: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf Graphic file (type pdf)
+<use kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf>
+Package luatex.def Info: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf  used on i
+nput line 915.
+(luatex.def)             Requested size: 48.36967pt x 54.19899pt.
+ [52
+
+]
+File: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf Graphic file (type pdf)
+<use kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf>
+Package luatex.def Info: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf  used on i
+nput line 917.
 (luatex.def)             Requested size: 68.2866pt x 76.5152pt.
 File: kthpq-files/figs//lines/Linjemonster_himmelsbla_RGB_1x1.pdf Graphic file 
 (type pdf)
 <use kthpq-files/figs//lines/Linjemonster_himmelsbla_RGB_1x1.pdf>
 Package luatex.def Info: kthpq-files/figs//lines/Linjemonster_himmelsbla_RGB_1x
-1.pdf  used on input line 918.
+1.pdf  used on input line 917.
 (luatex.def)             Requested size: 813.03552pt x 813.03552pt.
- [54
-
-] [55
+ [53
 
 ]
-Overfull \hbox (131.97913pt too wide) detected at line 969
+File: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf Graphic file (type pdf)
+<use kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf>
+Package luatex.def Info: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf  used on i
+nput line 933.
+(luatex.def)             Requested size: 48.36967pt x 54.19899pt.
+ [54
+
+]
+Overfull \hbox (131.97913pt too wide) detected at line 967
 [][][]
  []
 
-<figures/slow_learning_rule.png, id=528, 1490.56876pt x 1527.7075pt>
+<figures/slow_learning_rule.png, id=559, 1490.56876pt x 1527.7075pt>
 File: figures/slow_learning_rule.png Graphic file (type png)
 <use figures/slow_learning_rule.png>
-Package luatex.def Info: figures/slow_learning_rule.png  used on input line 969
+Package luatex.def Info: figures/slow_learning_rule.png  used on input line 967
 .
 (luatex.def)             Requested size: 236.95386pt x 206.66896pt.
 
-Overfull \hbox (32.264pt too wide) in paragraph at lines 969--969
+Overfull \hbox (32.264pt too wide) in paragraph at lines 967--967
 \TU/Figtree(0)/m/n/14.4 [[]BD15[]]  
  []
 
-[56
+
+Overfull \hbox (1.11208pt too wide) detected at line 967
+[][]\TU/FiraMathRegular(1)/m/n/17.28 𝛿\TU/Figtree-Italic(0)/m/n/17.28 M \TU/
+FiraMathRegular(1)/m/n/17.28 ∝ \TU/Figtree-Italic(0)/m/n/17.28 e[] \TU/FiraMa
+thRegular(1)/m/n/17.28 ⟶ 𝛿\TU/Figtree-Italic(0)/m/n/17.28 W[] \TU/FiraMath
+Regular(1)/m/n/17.28 ∝ \TU/Figtree-Italic(0)/m/n/17.28 F[] [] F \TU/FiraMathR
+egular(1)/m/n/17.28 ≈ \TU/Figtree-Italic(0)/m/n/17.28 F[]er
+ []
+
+File: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf Graphic file (type pdf)
+<use kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf>
+Package luatex.def Info: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf  used on i
+nput line 967.
+(luatex.def)             Requested size: 48.36967pt x 54.19899pt.
+[55
 
 <./figures/slow_learning_rule.png>]
 File: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf Graphic file (type pdf)
 <use kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf>
 Package luatex.def Info: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf  used on i
-nput line 973.
+nput line 971.
 (luatex.def)             Requested size: 68.2866pt x 76.5152pt.
 File: kthpq-files/figs//lines/Linjemonster_himmelsbla_RGB_1x1.pdf Graphic file 
 (type pdf)
 <use kthpq-files/figs//lines/Linjemonster_himmelsbla_RGB_1x1.pdf>
 Package luatex.def Info: kthpq-files/figs//lines/Linjemonster_himmelsbla_RGB_1x
-1.pdf  used on input line 973.
+1.pdf  used on input line 971.
+(luatex.def)             Requested size: 813.03552pt x 813.03552pt.
+ [56
+
+]
+File: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf Graphic file (type pdf)
+<use kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf>
+Package luatex.def Info: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf  used on i
+nput line 975.
+(luatex.def)             Requested size: 68.2866pt x 76.5152pt.
+File: kthpq-files/figs//lines/Linjemonster_himmelsbla_RGB_1x1.pdf Graphic file 
+(type pdf)
+<use kthpq-files/figs//lines/Linjemonster_himmelsbla_RGB_1x1.pdf>
+Package luatex.def Info: kthpq-files/figs//lines/Linjemonster_himmelsbla_RGB_1x
+1.pdf  used on input line 975.
 (luatex.def)             Requested size: 813.03552pt x 813.03552pt.
  [57
 
@@ -2526,63 +2640,103 @@ Package luatex.def Info: kthpq-files/figs//lines/Linjemonster_himmelsbla_RGB_1x
 File: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf Graphic file (type pdf)
 <use kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf>
 Package luatex.def Info: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf  used on i
-nput line 977.
-(luatex.def)             Requested size: 68.2866pt x 76.5152pt.
-File: kthpq-files/figs//lines/Linjemonster_himmelsbla_RGB_1x1.pdf Graphic file 
-(type pdf)
-<use kthpq-files/figs//lines/Linjemonster_himmelsbla_RGB_1x1.pdf>
-Package luatex.def Info: kthpq-files/figs//lines/Linjemonster_himmelsbla_RGB_1x
-1.pdf  used on input line 977.
-(luatex.def)             Requested size: 813.03552pt x 813.03552pt.
+nput line 998.
+(luatex.def)             Requested size: 48.36967pt x 54.19899pt.
  [58
 
-] [59
-
-] [60
-
-] [61
-
-] [62
-
-] [63
+]
+File: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf Graphic file (type pdf)
+<use kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf>
+Package luatex.def Info: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf  used on i
+nput line 1013.
+(luatex.def)             Requested size: 48.36967pt x 54.19899pt.
+ [59
 
 ]
-[64
+File: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf Graphic file (type pdf)
+<use kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf>
+Package luatex.def Info: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf  used on i
+nput line 1013.
+(luatex.def)             Requested size: 48.36967pt x 54.19899pt.
+ [60
 
-] [65
+]
+File: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf Graphic file (type pdf)
+<use kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf>
+Package luatex.def Info: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf  used on i
+nput line 1013.
+(luatex.def)             Requested size: 48.36967pt x 54.19899pt.
+ [61
 
-] [66
+]
+File: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf Graphic file (type pdf)
+<use kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf>
+Package luatex.def Info: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf  used on i
+nput line 1013.
+(luatex.def)             Requested size: 48.36967pt x 54.19899pt.
+ [62
+
+]
+File: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf Graphic file (type pdf)
+<use kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf>
+Package luatex.def Info: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf  used on i
+nput line 1013.
+(luatex.def)             Requested size: 48.36967pt x 54.19899pt.
+
+[63
+
+]
+File: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf Graphic file (type pdf)
+<use kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf>
+Package luatex.def Info: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf  used on i
+nput line 1013.
+(luatex.def)             Requested size: 48.36967pt x 54.19899pt.
+ [64
+
+]
+File: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf Graphic file (type pdf)
+<use kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf>
+Package luatex.def Info: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf  used on i
+nput line 1020.
+(luatex.def)             Requested size: 48.36967pt x 54.19899pt.
+ [65
 
 ]
 LaTeX Font Info:    Font shape `TU/Beramono(0)/m/n' will be
-(Font)              scaled to size 14.6881pt on input line 1028.
+(Font)              scaled to size 14.6881pt on input line 1026.
 
-Overfull \vbox (318.09889pt too high) detected at line 1028
+Overfull \vbox (318.09889pt too high) detected at line 1026
  []
 
-[67
+File: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf Graphic file (type pdf)
+<use kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf>
+Package luatex.def Info: kthpq-files/figs//logo/KTH_logo_RGB_bla.pdf  used on i
+nput line 1026.
+(luatex.def)             Requested size: 48.36967pt x 54.19899pt.
+[66
 
 ]
+<kthpq-files/figs//logo/KTH_logo_RGB_vit.pdf, id=654, 337.26pt x 377.91188pt>
 File: kthpq-files/figs//logo/KTH_logo_RGB_vit.pdf Graphic file (type pdf)
 <use kthpq-files/figs//logo/KTH_logo_RGB_vit.pdf>
 Package luatex.def Info: kthpq-files/figs//logo/KTH_logo_RGB_vit.pdf  used on i
-nput line 1031.
+nput line 1029.
 (luatex.def)             Requested size: 170.71652pt x 191.29665pt.
 File: kthpq-files/figs//lines/Linjemonster_himmelsbla_RGB_1x1.pdf Graphic file 
 (type pdf)
 <use kthpq-files/figs//lines/Linjemonster_himmelsbla_RGB_1x1.pdf>
 Package luatex.def Info: kthpq-files/figs//lines/Linjemonster_himmelsbla_RGB_1x
-1.pdf  used on input line 1031.
+1.pdf  used on input line 1029.
 (luatex.def)             Requested size: 813.03552pt x 813.03552pt.
 File: kthpq-files/figs//lines/Linjemonster_himmelsbla_RGB_1x1.pdf Graphic file 
 (type pdf)
 <use kthpq-files/figs//lines/Linjemonster_himmelsbla_RGB_1x1.pdf>
 Package luatex.def Info: kthpq-files/figs//lines/Linjemonster_himmelsbla_RGB_1x
-1.pdf  used on input line 1031.
+1.pdf  used on input line 1029.
 (luatex.def)             Requested size: 813.03552pt x 813.03552pt.
- [68
+ [67
 
-]
+<./kthpq-files/figs//logo/KTH_logo_RGB_vit.pdf>]
 \tf@nav=\write7
 
 \openout7 = sample.nav
@@ -2601,16 +2755,16 @@ Package logreq Info: Writing requests to 'sample.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 54847 strings out of 477805
+ 54991 strings out of 477805
  100000,2373549 words of node,token memory allocated
  4646 words of node memory still in use:
    114 hlist, 8 vlist, 17 rule, 2 local_par, 96 glue, 10 kern, 12 penalty, 12 su
 b_mlist, 46 glyph, 334 attribute, 82 glue_spec, 334 attribute_list, 7 write, 3 s
 ave_pos, 87 pdf_literal, 4 pdf_action, 26 pdf_colorstack, 4 pdf_setmatrix, 4 pdf
 _save, 4 pdf_restore nodes
-   avail lists: 2:3915,3:2418,4:586,5:856,6:70,7:6399,8:106,9:2069,10:18,11:289
- 72831 multiletter control sequences out of 65536+600000
- 155 fonts using 24283647 bytes
+   avail lists: 2:3915,3:2422,4:586,5:856,6:70,7:6523,8:106,9:2069,10:18,11:296
+ 72821 multiletter control sequences out of 65536+600000
+ 155 fonts using 24283531 bytes
  128i,17n,161p,1657b,2941s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/fonts/truetype/msttcorefonts/Georgia.ttf></usr/share/texlive/texmf-d
 ist/fonts/opentype/public/firamath/FiraMath-Regular.otf><./kthpq-files/fonts/ttf
@@ -2619,10 +2773,10 @@ iab.ttf><./kthpq-files/fonts/Figtree/otf/Figtree-Regular.otf><./kthpq-files/font
 s/Figtree/otf/Figtree-Italic.otf></usr/share/texlive/texmf-dist/fonts/opentype/p
 ublic/firamath/FiraMath-Regular.otf><./kthpq-files/fonts/Figtree/otf/Figtree-Bol
 d.otf><./kthpq-files/fonts/Figtree/otf/Figtree-Regular.otf>
-Output written on sample.pdf (68 pages, 2139235 bytes).
+Output written on sample.pdf (67 pages, 2142046 bytes).
 
-PDF statistics: 677 PDF objects out of 1000 (max. 8388607)
- 519 compressed objects within 6 object streams
- 155 named destinations out of 1000 (max. 131072)
+PDF statistics: 726 PDF objects out of 1000 (max. 8388607)
+ 569 compressed objects within 6 object streams
+ 153 named destinations out of 1000 (max. 131072)
  328 words of extra memory for PDF output out of 10000 (max. 100000000)
 
