@@ -251,6 +251,13 @@
 	\end{tikzpicture}
 \end{frame}
 
+\begin{frame}{Example Simulation}
+	\begin{textblock*}{5cm}(50pt,150pt)
+		\includegraphics[scale= 0.4]{figures/plots/Simulation/2d_perfect_gamma.pdf}
+	\end{textblock*}
+\end{frame}
+
+
 
 \section{Control}\insertsectionpage
 \begin{frame}{Control Concept}
@@ -289,17 +296,23 @@
 \end{frame}
 
 
-\begin{frame}{Examples}
-	\begin{columns}
-		\begin{column}{0.45\textwidth}
-			%\includegraphics[width= 0.9\textwidth]{bad_plot.png}
-			\todo{Insert Picture}
-		\end{column}
-		\begin{column}{0.45\textwidth}
-			\todo{Insert Picture}
-			%\includegraphics[width=0.9\textwidth]{good_plot.png}
-		\end{column}
-	\end{columns}
+\begin{frame}{Example}
+	
+	\begin{figure}
+		\centering
+		\includegraphics[scale = 0.45]{figures/plots/Control/compare_step_both_methods.pdf}
+	\end{figure}
+	
+%	\begin{columns}
+%		\begin{column}{0.45\textwidth}
+%			%\includegraphics[width= 0.9\textwidth]{bad_plot.png}
+%			\todo{Insert Picture}
+%		\end{column}
+%		\begin{column}{0.45\textwidth}
+%			\todo{Insert Picture}
+%			%\includegraphics[width=0.9\textwidth]{good_plot.png}
+%		\end{column}
+%	\end{columns}
 \end{frame}
 
 
@@ -320,7 +333,6 @@
 				\item Online Learning of Student teacher dynamics $\dot{\hat{x}} = M\hat{x} +c$
 				\item Error Feedback $Ke$ during Training
 				\item $\delta M \propto e\hat{x}^T \longrightarrow \delta W^s \propto F(e\hat{x}^T)F^T \approx Fer^T$
-				\item \todo{ Error alignment?}
 				\item Supervised Learning rule
 			\end{itemize}
 			
@@ -330,7 +342,7 @@
 			\begin{itemize}
 				\item Voltage measures system error
 				\item Minimize average Voltage outside of Neuron Threshold
-				\item Biologically plausible pre$\times$post locally
+				\item Biologically plausible $\text{pre}\times\text{post}$ locally
 				\item Unsupervised Learning Rule
 			\end{itemize}
 		\end{column}
@@ -338,17 +350,10 @@
 \end{frame}
 
 
-\begin{frame}{Examples}
-	\begin{columns}
-		\begin{column}{0.45\textwidth}
-			%\includegraphics[width= 0.9\textwidth]{Learned_results.png}
-			\todo{Insert Picture}
-		\end{column}
-		\begin{column}{0.45\textwidth}
-			\todo{Insert Picture}
-			%\includegraphics[width=0.9\textwidth]{Over time.png}
-		\end{column}
-	\end{columns}
+\begin{frame}{Example}
+	\begin{figure}
+		\includegraphics[scale = 0.45]{figures/plots/Learning/error_compare.pdf}	
+	\end{figure}
 \end{frame}
 
 
@@ -529,7 +534,7 @@
 		
 		\only<1,3>{Highly dependent on governing dynamics from $c_{\text{contr}} = \dot{x}_{\text{ref}}-Ax_{\text{ref}}$\\}
 		\only<2,4>{\st{Highly dependent on governing dynamics from $c_{\text{contr}} = \dot{x}_{\text{ref}}-Ax_{\text{ref}}$}\\}
-		\only<3,4>{Orthonormality restriction on Input Matrix $B \in \mathbb{B} := $$\left\{M\ |\ M^TM = \mathbf{I}\right\}$\\}
+		\only<3,4>{Orthonormality restriction on Input Matrix $B \in \mathbb{B} := $$\left\{M\ |\ MM^T = \mathbf{I}\right\}$\\}
 		
 		
 		
@@ -537,12 +542,23 @@
 
 
 \begin{frame}{Examples}
+	\vspace{-1.5cm}
 	\begin{columns}
 		\begin{column}{0.45\textwidth}
-			\todo{1 Example working with single Network working}
+			% This is feedback 2 nets 
+			\begin{figure}
+				\centering
+				\includegraphics[scale = 0.15]{figures/control_3.png}
+				\includegraphics[width = 0.9\textwidth]{figures/plots/everything/feedback_2_nets.pdf}
+			\end{figure}
 		\end{column}
 		\begin{column}{0.45\textwidth}
-			\todo{1 Example of 2 networks working}
+			% This is 1 single network with Feedback
+			\begin{figure}
+				\centering
+				\includegraphics[scale = 0.12]{figures/control_4.png}
+				\includegraphics[width = 0.9\textwidth]{figures/plots/everything/all_closed_sine_base.pdf}
+			\end{figure}
 		\end{column}
 	\end{columns}
 \end{frame}

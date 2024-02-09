@@ -1,11 +1,11 @@
 \beamer@sectionintoc {2}{Introduction}{3}{0}{1}
 \beamer@sectionintoc {3}{Simulation}{8}{0}{2}
-\beamer@sectionintoc {4}{Control}{11}{0}{3}
-\beamer@sectionintoc {5}{Learning}{14}{0}{4}
-\beamer@sectionintoc {6}{Combined Learning}{17}{0}{5}
-\beamer@sectionintoc {7}{Conclusion}{28}{0}{6}
-\beamer@sectionintoc {9}{BackupSlides}{33}{0}{7}
-\beamer@sectionintoc {10}{Control}{42}{0}{8}
-\beamer@sectionintoc {11}{Learning}{53}{0}{9}
-\beamer@sectionintoc {12}{Learned Control}{56}{0}{10}
-\beamer@sectionintoc {13}{Conclusion}{57}{0}{11}
+\beamer@sectionintoc {4}{Control}{12}{0}{3}
+\beamer@sectionintoc {5}{Learning}{15}{0}{4}
+\beamer@sectionintoc {6}{Combined Learning}{18}{0}{5}
+\beamer@sectionintoc {7}{Conclusion}{29}{0}{6}
+\beamer@sectionintoc {9}{BackupSlides}{34}{0}{7}
+\beamer@sectionintoc {10}{Control}{43}{0}{8}
+\beamer@sectionintoc {11}{Learning}{54}{0}{9}
+\beamer@sectionintoc {12}{Learned Control}{57}{0}{10}
+\beamer@sectionintoc {13}{Conclusion}{58}{0}{11}
