@@ -609,7 +609,6 @@
 \AtNextBibliography{\small}
 \begin{frame}[allowframebreaks]{Bibliography}
 	\printbibliography
-
 \end{frame}
 
 
@@ -827,20 +826,6 @@
 \end{frame}
 
 
-
-\begin{frame}{Example Simple}
-	content...
-\end{frame}
-
-\begin{frame}{Example Big}
-	content...
-\end{frame}
-
-\begin{frame}{Conclusion}
-	content...
-\end{frame}
-
-
 %\section{Control}\insertsectionpage
 
 \begin{frame}{Control Concept}
@@ -862,9 +847,6 @@
 			\node[anchor=south west, align=left, opacity=1] at ([shift={(30pt,50pt)}]image.south west)  {\scalebox{0.7}{$\text{x}$}};
 		\end{tikzpicture}
 		%^^ add some separator here to control the distance between both plots
-		\todo{Add a separator here}
-		\pause
-
 		\begin{tikzpicture}
 		% Include the picture
 			\node[anchor=south west, inner sep=0] (image) at (100pt,100pt) {\includegraphics[width=0.7\textwidth]{figures/control_2.png}};
@@ -908,14 +890,6 @@
 	\end{columns}
 \end{frame}
 
-\begin{frame}{Example in Ideal Conditions}
-	\todo{works fine+ add plot}
-\end{frame}
-
-
-\begin{frame}{Example with 2 networks}
-	\todo{works bad+ add plot}
-\end{frame}
 
 \begin{frame}{Conclusion}
 	\pause
@@ -932,22 +906,6 @@
 \end{frame}
 
 %\section{Learning}\insertsectionpage
-
-
-
-\begin{frame}{Fast Learning rule}
-	\begin{columns}
-		\begin{column}{0.45\textwidth}
-			\textbf{Slow Learning rule}\\
-			Online Teacher-Student Scheme
-
-		\end{column}
-		\begin{column}{0.45\textwidth}
-			\textbf{Fast Learning rule}\\
-			content...
-		\end{column}
-	\end{columns}
-\end{frame}
 
 \begin{frame}{Slow Learning rule}
 
@@ -1013,35 +971,6 @@
 		\end{column}
 	\end{columns}
 \end{frame}
-
-
-
-
-\begin{frame}{Future Work}
-	\pause
-	\begin{itemize}[<+->]
-		\setlength\itemsep{1.5em}
-		\item Enable non-linear dynamics
-		\item Obey Dale's Law for neuron excitation and inhibition
-		\item Optimize Control
-		\item Learning of En- and Decoder $F$
-		\item Allow for synaptic delays
-	\end{itemize}
-\end{frame}
-
-
-\begin{frame}{Frame title}
-\begin{block}{Block}
-Lorem ipsum!
-\end{block}
-\end{frame}
-
-
-
-\begin{frame}{Bibliography}
-	\printbibliography
-\end{frame}
-
 
 \insertendpage
 \end{document}
