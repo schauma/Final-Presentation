@@ -56,55 +56,11 @@
 \end{frame}
 
 
+
 \section{Introduction}\insertsectionpage
-\begin{frame}{What are we talking about}
-	\begin{columns}[T]
-
-		\begin{column}{0.48\textwidth}
-			\begin{block}{Control a Linear system}
-				\only<2->{
-					\begin{itemize}
-						\item Tracking of reference trajectory
-						\item[] \begin{equation}\begin{aligned}
-							\dot{x} = Ax + Bu\\
-							y = Cx
-							\end{aligned}\end{equation}
-						\item Only stable systems
-					\end{itemize}}
-				\only<1>{
-					\begin{center}
-						\includegraphics[width=0.7\textwidth]{figures/closed_loop_control.png}
-					\end{center}}
-			\end{block}
-		\end{column}
-
-		\begin{column}{0.48\textwidth}
-			\begin{block}{Use Spiking neural networks}
-				\only<2->{
-				\begin{itemize}
-					\item Third Generation of NN
-					\item Working with discrete spikes
-					\item Inherently fit for temporal data
-				\end{itemize}
-				}
-				\only<1>{
-					\begin{center}
-						\includegraphics[width=0.7\textwidth]{figures/test.png}
-				\end{center}}
-			\end{block}
-		\end{column}
-	\end{columns}
-
-	\only<1>{
-		\begin{textblock*}{20pt}(550pt,350pt)
-			\small
-			\cite{Xue2022}
-		\end{textblock*}}
-
-	\end{frame}
 
 \begin{frame}{Goal / Motivation}
-
+	
 	Artificial SNN can already solve various cognitive task such as
 	\begin{itemize}
 		\item Memorization
@@ -118,6 +74,59 @@
 		\item Allow for black-box deployment without manual parameter tuning\\
 		\item "Limit ourselves to use the brains capabilities to design a controller"\\
 	\end{itemize}
+\end{frame}	
+
+
+\begin{frame}{What are we talking about}
+	\begin{block}{Control a Linear system}
+		\begin{columns}[T]
+			\begin{column}{0.48\textwidth}
+				\begin{center}
+					\includegraphics[width=0.7\textwidth]{figures/closed_loop_control.png}
+				\end{center}
+			
+			\end{column}
+		
+			\begin{column}{0.48\textwidth}
+				\begin{itemize}
+					\item Tracking of reference trajectory
+					\item[] \begin{equation}\begin{aligned}
+						\dot{x} = Ax + Bu\\
+						y = Cx
+						\end{aligned}\end{equation}
+					\item Only stable systems
+				\end{itemize}	
+			\end{column}
+		\end{columns}
+	\end{block}		
+\end{frame}
+	
+	
+	
+\begin{frame}{What are we talking about}
+	\begin{block}{Use Spiking neural networks}
+		\begin{columns}
+			\begin{column}{0.48\textwidth}
+				
+				\begin{center}
+					\includegraphics[width=0.7\textwidth]{figures/test.png}
+				\end{center}
+				
+				\begin{textblock*}{20pt}(250pt,350pt)
+					\small
+					\cite{Xue2022}
+				\end{textblock*}
+			\end{column}
+			
+			\begin{column}{0.48\textwidth}
+				\begin{itemize}
+					\item Third Generation of NN
+					\item Working with discrete spikes
+					\item Inherently fit for temporal data
+				\end{itemize}	
+			\end{column}
+		\end{columns}
+	\end{block}	
 \end{frame}
 
 
@@ -151,7 +160,7 @@
 		\begin{column}{0.45\textwidth}
 			\begin{itemize}
 				\item Build NN that outputs $\hat{x}$ from the system $\dot{x} = Ax + c$ given $c$\\
-				\item Group of LIF neurons with with intrinsic Voltage, tracking the projected error $V_{i} = F(x-\hat{x})+\mu r_{i}$\\
+				\item Group of LIF neurons with with intrinsic Voltage, tracking the projected error $V_{i} = F_i(x-\hat{x})+\mu r_{i}$\\
 				\item Network decoding $\hat{x} =F^Tr$
 			\end{itemize}
 		\end{column}
@@ -175,8 +184,8 @@
 				\begin{axis}[
 					width=0.35\textwidth,
 					height=0.35\textwidth,
-					xlabel={$\Delta x_1$},
-					ylabel={$\Delta x_2$},
+					xlabel={$\Delta x$},
+					ylabel={$\Delta y$},
 					xmin =-0.9,
 					xmax = 0.9,
 					ymin = -0.9,
@@ -214,8 +223,8 @@
 				\begin{axis}[
 					width=0.5\textwidth,
 					height=0.3\textwidth,
-					xlabel={$x_1$},
-					ylabel={$x_2$},
+					xlabel={$x$},
+					ylabel={$y$},
 					domain=0:3.5,
 					samples=100,
 					axis lines=middle,
@@ -276,7 +285,7 @@
 					$}};
 
 			\node[anchor=south west, align=left, opacity=1] at ([shift={(380pt,50pt)}]image.south west)  {\scalebox{0.7}{$\hat{x}$}};
-			\node[anchor=south west, align=left, opacity=1] at ([shift={(210pt,50pt)}]image.south west)  {\scalebox{0.7}{$c$}};
+			\node[anchor=south west, align=left, opacity=1] at ([shift={(210pt,50pt)}]image.south west)  {\scalebox{0.7}{$u$}};
 			\node[anchor=south west, align=left, opacity=1] at ([shift={(30pt,50pt)}]image.south west)  {\scalebox{0.7}{$\text{x}$}};
 		\end{tikzpicture}
 	\end{center}
@@ -420,6 +429,19 @@
 
 \end{frame}
 
+
+\begin{frame}{Problems}
+	In conjunction, problems can arise:\\
+	\begin{itemize}
+		\setlength\itemsep{1.5em}
+		\item Divergence in Learning
+		\item Control with Noise
+		\item Open loop
+		\item Biologically implausible Learning
+	\end{itemize}
+\end{frame}
+
+
 \begin{frame}{Control Concept II}
 
 
@@ -462,18 +484,6 @@
 	}
 	\end{textblock*}
 
-\end{frame}
-
-
-\begin{frame}{Problems}
-	In conjunction, problems can arise:\\
-	\begin{itemize}
-		\setlength\itemsep{1.5em}
-		\item Divergence in Learning
-		\item Control with Noise
-		\item Reliance on analytic results
-		\item Biologically implausible Learning
-	\end{itemize}
 \end{frame}
 
 \begin{frame}
