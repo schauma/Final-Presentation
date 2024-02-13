@@ -436,8 +436,12 @@
 		\setlength\itemsep{1.5em}
 		\item Divergence in Learning
 		\item Control with Noise
-		\item Open loop
-		\item Biologically implausible Learning of first Network
+		\item Open loop control
+		\begin{itemize}
+			\item incapable of noise detection or correction
+			\item No compensation of Training errors
+		\end{itemize}
+		\item No biolically plausible Learning rule for control network available
 	\end{itemize}
 \end{frame}
 
@@ -487,24 +491,11 @@
 \end{frame}
 
 \begin{frame}
-	\only<1>{\frametitle{Dual Network}}
-	\only<2>{\frametitle{Dual Network with Feedback}}
-	\only<3>{\frametitle{Single Network}}
-	\only<4>{\frametitle{Single Network with Feedback}}
+	\only<1>{\frametitle{Dual Network with Feedback}}
+	\only<2>{\frametitle{Single Network}}
+	\only<3>{\frametitle{Single Network with Feedback}}
+	
 	\only<1>{\begin{textblock*}{50pt}(450pt,30pt)
-			\scalebox{0.15}[0.15]{
-				\begin{tikzpicture}[]
-					% Include the picture
-					\node[anchor=south west, inner sep=0] (image) at (0pt,0pt) {\includegraphics{figures/control_2.png}};
-
-					\node[anchor=north west, align=left, opacity=1] at ([shift={(1380pt,270pt)}]image.south west)  {\scalebox{3}{$\hat{x}$}};
-					\node[anchor=north west, align=left, opacity=1] at ([shift={(750pt,270pt)}]image.south west)  {\scalebox{3}{$c$}};
-					\node[anchor=north west, align=left, opacity=1] at ([shift={(150pt,270pt)}]image.south west)  {\scalebox{3}{$\text{x}$}};
-				\end{tikzpicture}
-			}
-	\end{textblock*}}
-
-	\only<2>{\begin{textblock*}{50pt}(450pt,30pt)
 				\scalebox{0.15}[0.15]{
 				\begin{tikzpicture}[]
 					% Include the picture
@@ -512,7 +503,7 @@
 				\end{tikzpicture}}
 			\end{textblock*}}
 
-	\only<3>{\begin{textblock*}{50pt}(450pt,30pt)
+	\only<2>{\begin{textblock*}{50pt}(450pt,30pt)
 			 \scalebox{0.15}[0.15]{
 			 	\begin{tikzpicture}[]
 					% Include the picture
@@ -520,7 +511,7 @@
 				\end{tikzpicture}}
 			\end{textblock*}}
 
-	\only<4>{\begin{textblock*}{50pt}(450pt,30pt)
+	\only<3>{\begin{textblock*}{50pt}(450pt,30pt)
 			 \scalebox{0.12}[0.12]{
 			 	\begin{tikzpicture}[]
 					% Include the picture
@@ -530,23 +521,21 @@
 
 
 
-		\only<1,2>{No Learning rule for control network available\\}
-		\only<3,4>{\st{No Learning rule for control network available}\\}
+		\only<1>{No Learning rule for control network available\\}
+		\only<2,3>{\st{No Learning rule for control network available}\\}
 
-		\only<1,3>{Open Loop Control:\\ \begin{itemize}
+		\only<2>{Open Loop Control:\\ \begin{itemize}
 				\item Incapable of noise detection or correction
 				\item No Compensation of Training error
 		\end{itemize}}
-		\only<2,4>{\st{Open loop Control:}\\\begin{itemize}
+		\only<1,3>{\st{Open loop Control:}\\\begin{itemize}
 				\item \st{Incapable of noise detection or correction}
 				\item \st{No Compensation of Training error}
 		\end{itemize}}
 
-		\only<1,3>{Highly dependent on governing dynamics from $c_{\text{contr}} = \dot{x}_{\text{ref}}-Ax_{\text{ref}}$\\}
-		\only<2,4>{\st{Highly dependent on governing dynamics from $c_{\text{contr}} = \dot{x}_{\text{ref}}-Ax_{\text{ref}}$}\\}
-		\only<3,4>{Orthonormality restriction on Input Matrix $B \in \mathbb{B} := $$\left\{M\ |\ MM^T = \mathbf{I}\right\}$\\}
-
-
+		\only<2>{Highly dependent on governing dynamics from $c_{\text{contr}} = \dot{x}_{\text{ref}}-Ax_{\text{ref}}$\\}
+		\only<1,3>{\st{Highly dependent on governing dynamics from $c_{\text{contr}} = \dot{x}_{\text{ref}}-Ax_{\text{ref}}$}\\}
+		\only<2,3>{Orthonormality restriction on Input Matrix $B \in \mathbb{B} := $$\left\{M\ |\ MM^T = \mathbf{I}\right\}$\\}
 
 \end{frame}
 
