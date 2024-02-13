@@ -177,88 +177,90 @@
 \end{frame}
 
 
-\begin{frame}{Geometric}
-	\begin{tikzpicture}[remember picture, overlay]
-		\node at (current page.north east) [xshift=-20cm, yshift=-8.85cm] {
-			\begin{tikzpicture}
-				\begin{axis}[
-					width=0.35\textwidth,
-					height=0.35\textwidth,
-					xlabel={$\Delta x$},
-					ylabel={$\Delta y$},
-					xmin =-0.9,
-					xmax = 0.9,
-					ymin = -0.9,
-					ymax = 0.9,
-					axis equal,
-					axis lines=middle,
-					enlargelimits=true,
-					xticklabels ={},
-					yticklabels = {},
-					xlabel style={
-						at={(ticklabel* cs:1.02)}, % Adjust the position of xlabel
-						anchor=north,
-					},
-					ylabel style={
-						at={(ticklabel* cs:1.02)}, % Adjust the position of ylabel
-						anchor=south,
-					},
-					]
-					\draw[->,violet,ultra thick](axis cs:0,0.0)--(axis cs: 0.5,0.5) node[midway,left,text=violet]{$\color{violet} F_1$};
-					\draw[->,teal,ultra thick](axis cs:0,0.0)--(axis cs: -0.5,0.5)node[midway,left,text=violet]{$\color{teal} F_2$};
-					\draw[->,red,ultra thick](axis cs:0,0.0)--(axis cs: 0.5,-0.5)node[midway,right,text=violet]{$\color{red} F_4$};
-					\draw[->,orange,ultra thick](axis cs:0,0.0)--(axis cs: -0.5,-0.5)node[midway,left,text=violet]{$\color{orange} F_3$};
-					\draw[draw = none,top color = white, middle color = white,bottom color = violet,shading angle = -90,opacity = 0.6,transform canvas = {rotate around={45:(axis cs: 0.0,0.0)}}] (axis cs:0.707,-5) rectangle (axis cs:0.9,5);
-					\draw[draw = none,top color = white, middle color = white,bottom color = teal,shading angle = -90,opacity = 0.6,transform canvas = {rotate around={135:(axis cs: 0.0,0.0)}}] (axis cs:0.707,-5) rectangle (axis cs:0.9,5);
-					\draw[draw = none,top color = white, middle color = white,bottom color = orange,shading angle = -90,opacity = 0.6,transform canvas = {rotate around={225:(axis cs: 0.0,0.0)}}] (axis cs:0.707,-5) rectangle (axis cs:0.9,5);
-					\draw[draw = none,top color = white, middle color = white,bottom color = red,shading angle = -90,opacity = 0.6,transform canvas = {rotate around={-45:(axis cs: 0.0,0.0)}}] (axis cs:0.707,-5) rectangle (axis cs:0.9,5);
+%\begin{frame}{Geometric}
+%	\begin{tikzpicture}[remember picture, overlay]
+%		\node at (current page.north east) [xshift=-20cm, yshift=-8.85cm] {
+%			\begin{tikzpicture}
+%				\begin{axis}[
+%					width=0.35\textwidth,
+%					height=0.35\textwidth,
+%					xlabel={$\Delta x$},
+%					ylabel={$\Delta y$},
+%					xmin =-0.9,
+%					xmax = 0.9,
+%					ymin = -0.9,
+%					ymax = 0.9,
+%					axis equal,
+%					axis lines=middle,
+%					enlargelimits=true,
+%					xticklabels ={},
+%					yticklabels = {},
+%					xlabel style={
+%						at={(ticklabel* cs:1.02)}, % Adjust the position of xlabel
+%						anchor=north,
+%					},
+%					ylabel style={
+%						at={(ticklabel* cs:1.02)}, % Adjust the position of ylabel
+%						anchor=south,
+%					},
+%					]
+%					\draw[->,violet,ultra thick](axis cs:0,0.0)--(axis cs: 0.5,0.5) node[midway,left,text=violet]{$\color{violet} F_1$};
+%					\draw[->,teal,ultra thick](axis cs:0,0.0)--(axis cs: -0.5,0.5)node[midway,left,text=violet]{$\color{teal} F_2$};
+%					\draw[->,red,ultra thick](axis cs:0,0.0)--(axis cs: 0.5,-0.5)node[midway,right,text=violet]{$\color{red} F_4$};
+%					\draw[->,orange,ultra thick](axis cs:0,0.0)--(axis cs: -0.5,-0.5)node[midway,left,text=violet]{$\color{orange} F_3$};
+%					\draw[draw = none,top color = white, middle color = white,bottom color = violet,shading angle = -90,opacity = 0.6,transform canvas = {rotate around={45:(axis cs: 0.0,0.0)}}] (axis cs:0.707,-5) rectangle (axis cs:0.9,5);
+%					\draw[draw = none,top color = white, middle color = white,bottom color = teal,shading angle = -90,opacity = 0.6,transform canvas = {rotate around={135:(axis cs: 0.0,0.0)}}] (axis cs:0.707,-5) rectangle (axis cs:0.9,5);
+%					\draw[draw = none,top color = white, middle color = white,bottom color = orange,shading angle = -90,opacity = 0.6,transform canvas = {rotate around={225:(axis cs: 0.0,0.0)}}] (axis cs:0.707,-5) rectangle (axis cs:0.9,5);
+%					\draw[draw = none,top color = white, middle color = white,bottom color = red,shading angle = -90,opacity = 0.6,transform canvas = {rotate around={-45:(axis cs: 0.0,0.0)}}] (axis cs:0.707,-5) rectangle (axis cs:0.9,5);
+%
+%				\end{axis}
+%		\end{tikzpicture}};
+%	\end{tikzpicture}
+%
+%	\begin{tikzpicture}[remember picture, overlay]
+%		\node at (current page.north east) [xshift=-8cm, yshift=-7.5cm] {
+%			\begin{tikzpicture}
+%				\begin{axis}[
+%					width=0.5\textwidth,
+%					height=0.3\textwidth,
+%					xlabel={$x$},
+%					ylabel={$y$},
+%					domain=0:3.5,
+%					samples=100,
+%					axis lines=middle,
+%					enlargelimits=true,
+%					clip mode=individual, % Ensure everything is shown
+%					xticklabels ={},
+%					yticklabels = {},
+%					xlabel style={
+%						at={(ticklabel* cs:0.5)}, % Adjust the position of xlabel
+%						anchor=north,
+%					},
+%					ylabel style={
+%						at={(ticklabel* cs:0.5)}, % Adjust the position of ylabel
+%						anchor=south,
+%						rotate=90, % Rotate ylabel by 90 degrees
+%					},
+%					]
+%					\addplot[blue,thick] {0.28934*x^3 - 1.8178*x^2 + 2.6016*x^1 + 0.66431};
+%					\draw[->,violet,ultra thick](axis cs:0,0.66)--(axis cs: 0.353553,1.01355);
+%					\draw[->,teal,ultra thick](axis cs:0.353553,1.01355)--(axis cs: 5.55112e-17,1.36711);
+%					\draw[->,violet,ultra thick](axis cs:5.55112e-17,1.36711)--(axis cs: 0.353553,1.72066);
+%					\draw[->,red,ultra thick](axis cs:0.353553,1.72066)--(axis cs: 0.707107,1.36711);
+%					\draw[->,violet,ultra thick](axis cs:0.707107,1.36711)--(axis cs: 1.06066,1.72066);
+%					\draw[->,red,ultra thick](axis cs:1.06066,1.72066)--(axis cs: 1.41421,1.36711);
+%					\draw[->,red,ultra thick](axis cs:1.41421,1.36711)--(axis cs: 1.76777,1.01355);
+%					\draw[->,red,ultra thick](axis cs:1.76777,1.01355)--(axis cs: 2.12132,0.66);
+%					\draw[->,red,ultra thick](axis cs:2.12132,0.66)--(axis cs: 2.47487,0.306447);
+%					\draw[->,red,ultra thick](axis cs:2.47487,0.306447)--(axis cs: 2.82843,-0.0471068);
+%					\draw[->,red,ultra thick](axis cs:2.82843,-0.0471068)--(axis cs: 3.18198,-0.40066);
+%					\draw[->,violet,ultra thick](axis cs:3.18198,-0.40066)--(axis cs: 3.53553,-0.0471068);
+%				\end{axis}
+%		\end{tikzpicture}};
+%	\end{tikzpicture}
+%\end{frame}
 
-				\end{axis}
-		\end{tikzpicture}};
-	\end{tikzpicture}
 
-	\begin{tikzpicture}[remember picture, overlay]
-		\node at (current page.north east) [xshift=-8cm, yshift=-7.5cm] {
-			\begin{tikzpicture}
-				\begin{axis}[
-					width=0.5\textwidth,
-					height=0.3\textwidth,
-					xlabel={$x$},
-					ylabel={$y$},
-					domain=0:3.5,
-					samples=100,
-					axis lines=middle,
-					enlargelimits=true,
-					clip mode=individual, % Ensure everything is shown
-					xticklabels ={},
-					yticklabels = {},
-					xlabel style={
-						at={(ticklabel* cs:0.5)}, % Adjust the position of xlabel
-						anchor=north,
-					},
-					ylabel style={
-						at={(ticklabel* cs:0.5)}, % Adjust the position of ylabel
-						anchor=south,
-						rotate=90, % Rotate ylabel by 90 degrees
-					},
-					]
-					\addplot[blue,thick] {0.28934*x^3 - 1.8178*x^2 + 2.6016*x^1 + 0.66431};
-					\draw[->,violet,ultra thick](axis cs:0,0.66)--(axis cs: 0.353553,1.01355);
-					\draw[->,teal,ultra thick](axis cs:0.353553,1.01355)--(axis cs: 5.55112e-17,1.36711);
-					\draw[->,violet,ultra thick](axis cs:5.55112e-17,1.36711)--(axis cs: 0.353553,1.72066);
-					\draw[->,red,ultra thick](axis cs:0.353553,1.72066)--(axis cs: 0.707107,1.36711);
-					\draw[->,violet,ultra thick](axis cs:0.707107,1.36711)--(axis cs: 1.06066,1.72066);
-					\draw[->,red,ultra thick](axis cs:1.06066,1.72066)--(axis cs: 1.41421,1.36711);
-					\draw[->,red,ultra thick](axis cs:1.41421,1.36711)--(axis cs: 1.76777,1.01355);
-					\draw[->,red,ultra thick](axis cs:1.76777,1.01355)--(axis cs: 2.12132,0.66);
-					\draw[->,red,ultra thick](axis cs:2.12132,0.66)--(axis cs: 2.47487,0.306447);
-					\draw[->,red,ultra thick](axis cs:2.47487,0.306447)--(axis cs: 2.82843,-0.0471068);
-					\draw[->,red,ultra thick](axis cs:2.82843,-0.0471068)--(axis cs: 3.18198,-0.40066);
-					\draw[->,violet,ultra thick](axis cs:3.18198,-0.40066)--(axis cs: 3.53553,-0.0471068);
-				\end{axis}
-		\end{tikzpicture}};
-	\end{tikzpicture}
-\end{frame}
 
 \begin{frame}{Example Simulation}
 	\begin{textblock*}{5cm}(50pt,150pt)
@@ -311,17 +313,6 @@
 		\centering
 		\includegraphics[scale = 0.45]{figures/plots/Control/compare_step_both_methods.pdf}
 	\end{figure}
-
-%	\begin{columns}
-%		\begin{column}{0.45\textwidth}
-%			%\includegraphics[width= 0.9\textwidth]{bad_plot.png}
-%			\todo{Insert Picture}
-%		\end{column}
-%		\begin{column}{0.45\textwidth}
-%			\todo{Insert Picture}
-%			%\includegraphics[width=0.9\textwidth]{good_plot.png}
-%		\end{column}
-%	\end{columns}
 \end{frame}
 
 
@@ -340,7 +331,7 @@
 			\textbf{Slow Learning rule} $W^s = F(A+\lambda_d\mathbf{I})F^T$
 			\begin{itemize}
 				\item Online Learning of Student teacher dynamics $\dot{\hat{x}} = M\hat{x} +c$
-				\item Error Feedback $Ke$ during Training
+				\item Error Feedback $e$ during Training
 				\item $\delta M \propto e\hat{x}^T \longrightarrow \delta W^s \propto F(e\hat{x}^T)F^T \approx Fer^T$
 				\item Supervised Learning rule
 			\end{itemize}
