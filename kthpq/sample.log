@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.14.0 (TeX Live 2022/dev/Debian)  (format=lualatex 2024.1.16)  12 FEB 2024 10:24
+This is LuaHBTeX, Version 1.14.0 (TeX Live 2022/dev/Debian)  (format=lualatex 2024.1.16)  13 FEB 2024 02:33
  restricted system commands enabled.
 **sample.tex
 (./sample.tex
@@ -2634,7 +2634,7 @@ otf></usr/share/fonts/truetype/msttcorefonts/georgiab.ttf><./kthpq-files/fonts/F
 igtree/otf/Figtree-Regular.otf><./kthpq-files/fonts/Figtree/otf/Figtree-Italic.o
 tf></usr/share/texlive/texmf-dist/fonts/opentype/public/firamath/FiraMath-Regula
 r.otf><./kthpq-files/fonts/Figtree/otf/Figtree-Regular.otf>
-Output written on sample.pdf (49 pages, 3624552 bytes).
+Output written on sample.pdf (49 pages, 3624576 bytes).
 
 PDF statistics: 785 PDF objects out of 1000 (max. 8388607)
  616 compressed objects within 7 object streams
