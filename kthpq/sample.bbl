@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.2 $
+% $ biblatex bbl format version 3.1 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -73,7 +73,7 @@
       \strng{editorfullhash}{95e40444732d7905041fa015b18cfa44}
       \field{labelalpha}{BD15}
       \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Advances in Neural Information Processing Systems}
@@ -81,12 +81,6 @@
       \field{volume}{28}
       \field{year}{2015}
       \field{dateera}{ce}
-      \verb{urlraw}
-      \verb https://proceedings.neurips.cc/paper_files/paper/2015/file/3871bd64012152bfb53fdf04b401193f-Paper.pdf
-      \endverb
-      \verb{url}
-      \verb https://proceedings.neurips.cc/paper_files/paper/2015/file/3871bd64012152bfb53fdf04b401193f-Paper.pdf
-      \endverb
     \endentry
     \entry{boerlin_predictive_2013}{article}{}
       \name{author}{3}{}{%
@@ -114,12 +108,11 @@
       \strng{authorfullhash}{8ed5436b264bd8cc823e87f548a49edf}
       \field{labelalpha}{BMD13}
       \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Two observations about the cortex have puzzled neuroscientists for a long time. First, neural responses are highly variable. Second, the level of excitation and inhibition received by each neuron is tightly balanced at all times. Here, we demonstrate that both properties are necessary consequences of neural networks that represent information efficiently in their spikes. We illustrate this insight with spiking networks that represent dynamical variables. Our approach is based on two assumptions: We assume that information about dynamical variables can be read out linearly from neural spike trains, and we assume that neurons only fire a spike if that improves the representation of the dynamical variables. Based on these assumptions, we derive a network of leaky integrate-and-fire neurons that is able to implement arbitrary linear dynamical systems. We show that the membrane voltage of the neurons is equivalent to a prediction error about a common population-level signal. Among other things, our approach allows us to construct an integrator network of spiking neurons that is robust against many perturbations. Most importantly, neural variability in our networks cannot be equated to noise. Despite exhibiting the same single unit properties as widely used population code models (e.g. tuning curves, Poisson distributed spike trains), balanced networks are orders of magnitudes more reliable. Our approach suggests that spikes do matter when considering how the brain computes, and that the reliability of cortical representations could have been strongly underestimated.}
       \field{day}{14}
-      \field{issn}{1553-7358}
       \field{journaltitle}{{PLOS} Computational Biology}
       \field{langid}{english}
       \field{month}{11}
@@ -127,26 +120,14 @@
       \field{number}{11}
       \field{shortjournal}{{PLOS} Computational Biology}
       \field{title}{Predictive Coding of Dynamical Variables in Balanced Spiking Networks}
-      \field{urlday}{20}
-      \field{urlmonth}{9}
-      \field{urlyear}{2022}
       \field{volume}{9}
       \field{year}{2013}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \field{pages}{e1003258}
-      \range{pages}{-1}
       \verb{doi}
       \verb 10.1371/journal.pcbi.1003258
       \endverb
       \verb{file}
       \verb Full Text PDF:/home/max/Zotero/storage/PA8LXANX/Boerlin et al. - 2013 - Predictive Coding of Dynamical Variables in Balanc.pdf:application/pdf;Snapshot:/home/max/Zotero/storage/ACMFCVFE/article.html:text/html
-      \endverb
-      \verb{urlraw}
-      \verb https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003258
-      \endverb
-      \verb{url}
-      \verb https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003258
       \endverb
       \keyw{Neurons,Action potentials,Dynamical systems,Membrane potential,Network analysis,Neural networks,Neuronal tuning,Sensory perception}
     \endentry
@@ -171,10 +152,9 @@
       \strng{authorfullhash}{8d9498741bc67be4a06d23e33e9995f4}
       \field{labelalpha}{HC19}
       \field{sortinit}{H}
-      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{issn}{0340-1200, 1432-0770}
       \field{journaltitle}{Biological Cybernetics}
       \field{langid}{english}
       \field{month}{4}
@@ -192,12 +172,6 @@
       \range{pages}{12}
       \verb{doi}
       \verb 10.1007/s00422-018-0769-7
-      \endverb
-      \verb{urlraw}
-      \verb http://link.springer.com/10.1007/s00422-018-0769-7
-      \endverb
-      \verb{url}
-      \verb http://link.springer.com/10.1007/s00422-018-0769-7
       \endverb
     \endentry
     \entry{Xue2022}{article}{}
@@ -235,10 +209,9 @@
       \strng{authorfullhash}{122f20e205fc5984bf5bd1f0a443251e}
       \field{labelalpha}{Xue+22}
       \field{sortinit}{X}
-      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
+      \field{sortinithash}{e90038f30fa4b9ce59606fc8347e3cc7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{issn}{1866-9964}
       \field{journaltitle}{Cognitive Computation}
       \field{month}{2}
       \field{number}{4}
@@ -249,12 +222,6 @@
       \range{pages}{23}
       \verb{doi}
       \verb 10.1007/s12559-022-09994-2
-      \endverb
-      \verb{urlraw}
-      \verb http://dx.doi.org/10.1007/s12559-022-09994-2
-      \endverb
-      \verb{url}
-      \verb http://dx.doi.org/10.1007/s12559-022-09994-2
       \endverb
     \endentry
   \enddatalist
