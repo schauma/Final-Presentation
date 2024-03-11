@@ -60,7 +60,7 @@
 \section{Introduction}\insertsectionpage
 
 \begin{frame}{Goal / Motivation}
-	
+
 	Artificial SNN can already solve various cognitive task such as
 	\begin{itemize}
 		\item Memorization
@@ -74,7 +74,7 @@
 		\item Allow for black-box deployment without manual parameter tuning\\
 		\item "Limit ourselves to use the brains capabilities to design a controller"\\
 	\end{itemize}
-\end{frame}	
+\end{frame}
 
 
 \begin{frame}{What are we talking about}
@@ -84,9 +84,9 @@
 				\begin{center}
 					\includegraphics[width=0.7\textwidth]{figures/closed_loop_control.png}
 				\end{center}
-			
+
 			\end{column}
-		
+
 			\begin{column}{0.48\textwidth}
 				\begin{itemize}
 					\item Tracking of reference trajectory
@@ -95,38 +95,38 @@
 						y = Cx
 						\end{aligned}\end{equation}
 					\item Only stable systems
-				\end{itemize}	
+				\end{itemize}
 			\end{column}
 		\end{columns}
-	\end{block}		
+	\end{block}
 \end{frame}
-	
-	
-	
+
+
+
 \begin{frame}{What are we talking about}
 	\begin{block}{Use Spiking neural networks}
 		\begin{columns}
 			\begin{column}{0.48\textwidth}
-				
+
 				\begin{center}
 					\includegraphics[width=0.7\textwidth]{figures/test.png}
 				\end{center}
-				
+
 				\begin{textblock*}{20pt}(250pt,350pt)
 					\small
 					\cite{Xue2022}
 				\end{textblock*}
 			\end{column}
-			
+
 			\begin{column}{0.48\textwidth}
 				\begin{itemize}
 					\item Third Generation of NN
 					\item Working with discrete spikes
 					\item Inherently fit for temporal data
-				\end{itemize}	
+				\end{itemize}
 			\end{column}
 		\end{columns}
-	\end{block}	
+	\end{block}
 \end{frame}
 
 
@@ -432,7 +432,7 @@
 			\item incapable of noise detection or correction
 			\item No compensation of Training errors
 		\end{itemize}
-		\item No biolically plausible Learning rule for control network available
+		\item No biologically plausible Learning rule for control network available
 	\end{itemize}
 \end{frame}
 
@@ -485,7 +485,7 @@
 	\only<1>{\frametitle{Dual Network with Feedback}}
 	\only<2>{\frametitle{Single Network}}
 	\only<3>{\frametitle{Single Network with Feedback}}
-	
+
 	\only<1>{\begin{textblock*}{50pt}(450pt,30pt)
 				\scalebox{0.15}[0.15]{
 				\begin{tikzpicture}[]
