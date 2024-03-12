@@ -81,6 +81,12 @@
       \field{volume}{28}
       \field{year}{2015}
       \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://proceedings.neurips.cc/paper_files/paper/2015/file/3871bd64012152bfb53fdf04b401193f-Paper.pdf
+      \endverb
+      \verb{url}
+      \verb https://proceedings.neurips.cc/paper_files/paper/2015/file/3871bd64012152bfb53fdf04b401193f-Paper.pdf
+      \endverb
     \endentry
     \entry{boerlin_predictive_2013}{article}{}
       \name{author}{3}{}{%
@@ -120,9 +126,13 @@
       \field{number}{11}
       \field{shortjournal}{{PLOS} Computational Biology}
       \field{title}{Predictive Coding of Dynamical Variables in Balanced Spiking Networks}
+      \field{urlday}{20}
+      \field{urlmonth}{9}
+      \field{urlyear}{2022}
       \field{volume}{9}
       \field{year}{2013}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{doi}
       \verb 10.1371/journal.pcbi.1003258
       \endverb
@@ -130,6 +140,69 @@
       \verb Full Text PDF:/home/max/Zotero/storage/PA8LXANX/Boerlin et al. - 2013 - Predictive Coding of Dynamical Variables in Balanc.pdf:application/pdf;Snapshot:/home/max/Zotero/storage/ACMFCVFE/article.html:text/html
       \endverb
       \keyw{Neurons,Action potentials,Dynamical systems,Membrane potential,Network analysis,Neural networks,Neuronal tuning,Sensory perception}
+    \endentry
+    \entry{brendel_learning_2020}{article}{}
+      \name{author}{5}{}{%
+        {{hash=8a7f657701e94ae3c82e5c742f585592}{%
+           family={Brendel},
+           familyi={B\bibinitperiod},
+           given={Wieland},
+           giveni={W\bibinitperiod}}}%
+        {{hash=d5d9171135c3f726261214c0bfb32d34}{%
+           family={Bourdoukan},
+           familyi={B\bibinitperiod},
+           given={Ralph},
+           giveni={R\bibinitperiod}}}%
+        {{hash=6a988446bc42e2c10bd314b36402ac95}{%
+           family={Vertechi},
+           familyi={V\bibinitperiod},
+           given={Pietro},
+           giveni={P\bibinitperiod}}}%
+        {{hash=ffe881e395423136438b1d8d31ae69bc}{%
+           family={Machens},
+           familyi={M\bibinitperiod},
+           given={Christian\bibnamedelima K.},
+           giveni={C\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=201294632b58f6ed012c5cd061239c6d}{%
+           family={Denève},
+           familyi={D\bibinitperiod},
+           given={Sophie},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{060ab3d3cb3aea3fcbb47622cfd54e3c}
+      \strng{fullhash}{03b86d2ced09a54adb2a87f4a29f0765}
+      \strng{bibnamehash}{03b86d2ced09a54adb2a87f4a29f0765}
+      \strng{authorbibnamehash}{03b86d2ced09a54adb2a87f4a29f0765}
+      \strng{authornamehash}{060ab3d3cb3aea3fcbb47622cfd54e3c}
+      \strng{authorfullhash}{03b86d2ced09a54adb2a87f4a29f0765}
+      \field{labelalpha}{Bre+20}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Networks based on coordinated spike coding can encode information with high efficiency in the spike trains of individual neurons. These networks exhibit single-neuron variability and tuning curves as typically observed in cortex, but paradoxically coincide with a precise, non-redundant spike-based population code. However, it has remained unclear whether the specific synaptic connectivities required in these networks can be learnt with local learning rules. Here, we show how to learn the required architecture. Using coding efficiency as an objective, we derive spike-timing-dependent learning rules for a recurrent neural network, and we provide exact solutions for the networks’ convergence to an optimal state. As a result, we deduce an entire network from its input distribution and a firing cost. After learning, basic biophysical quantities such as voltages, firing thresholds, excitation, inhibition, or spikes acquire precise functional interpretations.}
+      \field{day}{16}
+      \field{journaltitle}{{PLOS} Computational Biology}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{note}{Publisher: Public Library of Science}
+      \field{number}{3}
+      \field{shortjournal}{{PLOS} Computational Biology}
+      \field{title}{Learning to represent signals spike by spike}
+      \field{urlday}{20}
+      \field{urlmonth}{9}
+      \field{urlyear}{2022}
+      \field{volume}{16}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1371/journal.pcbi.1007692
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/max/Zotero/storage/CZV96R6W/Brendel et al. - 2020 - Learning to represent signals spike by spike.pdf:application/pdf;Snapshot:/home/max/Zotero/storage/4QSKUIUN/article.html:text/html
+      \endverb
+      \keyw{Neurons,Action potentials,Membrane potential,Neural networks,Neuronal tuning,Coding mechanisms,Signaling networks,Speech signal processing}
     \endentry
     \entry{huang_spiking_2019}{article}{}
       \name{author}{2}{}{%
@@ -174,57 +247,8 @@
       \verb 10.1007/s00422-018-0769-7
       \endverb
     \endentry
-    \entry{Xue2022}{article}{}
-      \name{author}{4}{}{%
-        {{hash=63889708e066405f189a8f86e593d305}{%
-           family={Xue},
-           familyi={X\bibinitperiod},
-           given={Xiaohe},
-           giveni={X\bibinitperiod}}}%
-        {{hash=f31058b7f1e33c37cc731851da85fe3c}{%
-           family={Wimmer},
-           familyi={W\bibinitperiod},
-           given={Ralf\bibnamedelima D.},
-           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-        {{hash=cfdec01d536b66bdb2cf3f5f07fbb558}{%
-           family={Halassa},
-           familyi={H\bibinitperiod},
-           given={Michael\bibnamedelima M.},
-           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=fdbc6b6d792613bb62ecb9298667b06b}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Zhe\bibnamedelima Sage},
-           giveni={Z\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-      }
-      \list{publisher}{2}{%
-        {Springer Science}%
-        {Business Media LLC}%
-      }
-      \strng{namehash}{7b64b5914ff536d43368f8407bc26334}
-      \strng{fullhash}{122f20e205fc5984bf5bd1f0a443251e}
-      \strng{bibnamehash}{122f20e205fc5984bf5bd1f0a443251e}
-      \strng{authorbibnamehash}{122f20e205fc5984bf5bd1f0a443251e}
-      \strng{authornamehash}{7b64b5914ff536d43368f8407bc26334}
-      \strng{authorfullhash}{122f20e205fc5984bf5bd1f0a443251e}
-      \field{labelalpha}{Xue+22}
-      \field{sortinit}{X}
-      \field{sortinithash}{e90038f30fa4b9ce59606fc8347e3cc7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Cognitive Computation}
-      \field{month}{2}
-      \field{number}{4}
-      \field{title}{Spiking Recurrent Neural Networks Represent Task-Relevant Neural Sequences in Rule-Dependent Computation}
-      \field{volume}{15}
-      \field{year}{2022}
-      \field{pages}{1167\bibrangedash 1189}
-      \range{pages}{23}
-      \verb{doi}
-      \verb 10.1007/s12559-022-09994-2
-      \endverb
-    \endentry
   \enddatalist
+  \missing{Xue2022}
 \endrefsection
 \endinput
 

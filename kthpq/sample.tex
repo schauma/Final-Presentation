@@ -594,11 +594,7 @@
 \end{frame}
 
 
-\begin{frame}{Takeaways}
-	Read the Papers!
-	\todo{Make a paper highlighting the mistakes and not so nice things I found in the papers}
-	\todo{Fix the side for the fast learning rule}
-\end{frame}
+
 
 
 
@@ -635,8 +631,32 @@
 %██████  ██   ██  ██████ ██   ██  ██████  ██          ███████ ███████ ██ ██████  ███████ ███████
 
 
-
 \section*{BackupSlides}\insertsectionpage
+
+
+
+
+\begin{frame}{Takeaways}
+	\begin{alertblock}{Do not trust the plots}
+		\begin{columns}
+			\begin{column}{0.48\textwidth}
+				\begin{figure}
+					\includegraphics[width= 0.8\textwidth]{figures/fake1.png}
+				\end{figure}
+			Not the learned decoder! \cite{brendel_learning_2020}
+			\end{column}
+
+		\begin{column}{0.48\textwidth}
+			\begin{figure}
+				\includegraphics[width= 0.8\textwidth]{figures/fake2.png}
+			\end{figure}
+			No Control Loop! \cite{huang_spiking_2019}
+		\end{column}
+		\end{columns}
+	\end{alertblock}
+\end{frame}
+
+
 
 \begin{frame}{Autoencoder}
 	\begin{columns}[T]
@@ -900,15 +920,14 @@
 
 
 \begin{frame}{Conclusion}
-	\pause
 	\begin{itemize}
 		\setlength\itemsep{1.5em}
 		\item Acceptable results in ideal conditions
-		\pause
+
 		\item Rank condition is limiting factor
-		\pause
+
 		\item Network noise is invisible to the control
-		\pause
+
 		\item Simple open loop controller in the definition of $c$
 	\end{itemize}
 \end{frame}
@@ -949,7 +968,39 @@
 	\end{columns}
 \end{frame}
 
+\begin{frame}{Fast Learning rule}
 
+
+	\begin{textblock*}{10pt}(550pt,20pt)
+		\small
+		\begin{equation*}
+		\begin{aligned}
+		\dot{\hat{x}}=&(M-K \mathbf{I}) \hat{x}+c+K x\\
+		W^s =& F\left(A + \lambda_d\mathbf{I}\right)F^T
+		\end{aligned}
+		\end{equation*}
+	\end{textblock*}
+
+	\begin{columns}
+		\begin{column}{0.45\textwidth}
+			\begin{figure}
+				\centering
+				\includegraphics[width = 0.8\textwidth,trim= 0cm 0cm 0cm 8cm]{figures/slow_learning_rule.png}
+			\end{figure}
+			\begin{textblock*}{10pt}(300pt,240pt)
+				\small
+				\cite{bourdoukan_enforcing_2015}
+			\end{textblock*}
+		\end{column}
+		\begin{column}{0.45\textwidth}
+			Online Teacher-Student Scheme for $M$ under $\dot{x} = Mx +c$\\
+			Matrix update under squared loss
+			\begin{equation}
+			\delta M \propto e\hat{x}^T \longrightarrow\delta W^s \propto F^T \left(e\hat{x}^T\right)F \approx F^T er
+			\end{equation}
+		\end{column}
+	\end{columns}
+\end{frame}
 
 %\section{Learned Control}\insertsectionpage
 

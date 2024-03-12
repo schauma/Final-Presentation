@@ -2189,8 +2189,11 @@
     <bcf:citekey order="5">huang_spiking_2019</bcf:citekey>
     <bcf:citekey order="6">huang_spiking_2019</bcf:citekey>
     <bcf:citekey order="7">huang_spiking_2019</bcf:citekey>
-    <bcf:citekey order="8">huang_spiking_2019</bcf:citekey>
-    <bcf:citekey order="9">bourdoukan_enforcing_2015</bcf:citekey>
+    <bcf:citekey order="8">brendel_learning_2020</bcf:citekey>
+    <bcf:citekey order="9">huang_spiking_2019</bcf:citekey>
+    <bcf:citekey order="10">huang_spiking_2019</bcf:citekey>
+    <bcf:citekey order="11">bourdoukan_enforcing_2015</bcf:citekey>
+    <bcf:citekey order="12">bourdoukan_enforcing_2015</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="anyt">
