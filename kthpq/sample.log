@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2024.3.11)  12 MAR 2024 14:18
+This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2024.3.11)  13 MAR 2024 09:37
  restricted system commands enabled.
 **sample.tex
 (./sample.tex
@@ -2644,7 +2644,7 @@ save, 4 pdf_restore nodes
    avail lists: 1:6,2:3923,3:1616,4:226,5:162,6:61,7:2761,8:106,9:746,10:16,11:1
 77
  67910 multiletter control sequences out of 65536+600000
- 161 fonts using 26499203 bytes
+ 161 fonts using 26499335 bytes
  84i,17n,143p,1657b,2941s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/fonts/truetype/msttcorefonts/Georgia.ttf><./kthpq-files/fonts/Figtre
 e/otf/Figtree-Regular.otf><./kthpq-files/fonts/ttf-bitstream-vera-1.10/VeraMono.
@@ -2653,7 +2653,7 @@ ar.otf></usr/share/fonts/truetype/msttcorefonts/Georgia_Bold.ttf><./kthpq-files/
 fonts/Figtree/otf/Figtree-Bold.otf><./kthpq-files/fonts/Figtree/otf/Figtree-Ital
 ic.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/firamath/FiraMath-Re
 gular.otf><./kthpq-files/fonts/Figtree/otf/Figtree-Regular.otf>
-Output written on sample.pdf (43 pages, 4235363 bytes).
+Output written on sample.pdf (43 pages, 4235370 bytes).
 
 PDF statistics: 742 PDF objects out of 1000 (max. 8388607)
  578 compressed objects within 6 object streams
