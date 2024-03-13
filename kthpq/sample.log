@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2024.3.11)  13 MAR 2024 10:17
+This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2024.3.11)  13 MAR 2024 10:59
  restricted system commands enabled.
 **sample.tex
 (./sample.tex
@@ -2501,13 +2501,13 @@ ut line 893.
  [37
 
 ]
-Overfull \vbox (11.85915pt too high) detected at line 920
+Overfull \vbox (11.85915pt too high) detected at line 929
  []
 
 File: kthpq-files/figs/logo/KTH_logo_RGB_bla.pdf Graphic file (type pdf)
 <use kthpq-files/figs/logo/KTH_logo_RGB_bla.pdf>
 Package luatex.def Info: kthpq-files/figs/logo/KTH_logo_RGB_bla.pdf  used on inp
-ut line 920.
+ut line 929.
 (luatex.def)             Requested size: 48.36967pt x 54.19899pt.
 [38
 
@@ -2515,28 +2515,28 @@ ut line 920.
 File: kthpq-files/figs/logo/KTH_logo_RGB_bla.pdf Graphic file (type pdf)
 <use kthpq-files/figs/logo/KTH_logo_RGB_bla.pdf>
 Package luatex.def Info: kthpq-files/figs/logo/KTH_logo_RGB_bla.pdf  used on inp
-ut line 934.
+ut line 943.
 (luatex.def)             Requested size: 48.36967pt x 54.19899pt.
  [39
 
 ]
-Overfull \hbox (131.97913pt too wide) detected at line 970
+Overfull \hbox (131.97913pt too wide) detected at line 979
 [][][]
  []
 
 <figures/slow_learning_rule.png, id=645, 1490.56876pt x 1527.7075pt>
 File: figures/slow_learning_rule.png Graphic file (type png)
 <use figures/slow_learning_rule.png>
-Package luatex.def Info: figures/slow_learning_rule.png  used on input line 970.
+Package luatex.def Info: figures/slow_learning_rule.png  used on input line 979.
 
 (luatex.def)             Requested size: 236.95386pt x 206.66896pt.
 
-Overfull \hbox (32.264pt too wide) in paragraph at lines 970--970
+Overfull \hbox (32.264pt too wide) in paragraph at lines 979--979
 \TU/Figtree(0)/m/n/14.4 [[]BD15[]]  
  []
 
 
-Overfull \hbox (1.11208pt too wide) detected at line 970
+Overfull \hbox (1.11208pt too wide) detected at line 979
 []\TU/FiraMathRegular(1)/m/n/17.28 𝛿\TU/Figtree-Italic(0)/m/n/17.28 M \TU/Fi
 raMathRegular(1)/m/n/17.28 ∝ \TU/Figtree-Italic(0)/m/n/17.28 e[] \TU/FiraMath
 Regular(1)/m/n/17.28 ⟶ 𝛿\TU/Figtree-Italic(0)/m/n/17.28 W[] \TU/FiraMathRe
@@ -2547,27 +2547,27 @@ ular(1)/m/n/17.28 ≈ \TU/Figtree-Italic(0)/m/n/17.28 F[]er
 File: kthpq-files/figs/logo/KTH_logo_RGB_bla.pdf Graphic file (type pdf)
 <use kthpq-files/figs/logo/KTH_logo_RGB_bla.pdf>
 Package luatex.def Info: kthpq-files/figs/logo/KTH_logo_RGB_bla.pdf  used on inp
-ut line 970.
+ut line 979.
 (luatex.def)             Requested size: 48.36967pt x 54.19899pt.
 [40
 
 <./figures/slow_learning_rule.png>]
-Overfull \hbox (131.97913pt too wide) detected at line 1004
+Overfull \hbox (131.97913pt too wide) detected at line 1013
 [][][]
  []
 
 File: figures/slow_learning_rule.png Graphic file (type png)
 <use figures/slow_learning_rule.png>
-Package luatex.def Info: figures/slow_learning_rule.png  used on input line 1004
+Package luatex.def Info: figures/slow_learning_rule.png  used on input line 1013
 .
 (luatex.def)             Requested size: 236.95386pt x 206.66896pt.
 
-Overfull \hbox (32.264pt too wide) in paragraph at lines 1004--1004
+Overfull \hbox (32.264pt too wide) in paragraph at lines 1013--1013
 \TU/Figtree(0)/m/n/14.4 [[]BD15[]]  
  []
 
 
-Overfull \hbox (1.11208pt too wide) detected at line 1004
+Overfull \hbox (1.11208pt too wide) detected at line 1013
 []\TU/FiraMathRegular(1)/m/n/17.28 𝛿\TU/Figtree-Italic(0)/m/n/17.28 M \TU/Fi
 raMathRegular(1)/m/n/17.28 ∝ \TU/Figtree-Italic(0)/m/n/17.28 e[] \TU/FiraMath
 Regular(1)/m/n/17.28 ⟶ 𝛿\TU/Figtree-Italic(0)/m/n/17.28 W[] \TU/FiraMathRe
@@ -2578,7 +2578,7 @@ ular(1)/m/n/17.28 ≈ \TU/Figtree-Italic(0)/m/n/17.28 F[]er
 File: kthpq-files/figs/logo/KTH_logo_RGB_bla.pdf Graphic file (type pdf)
 <use kthpq-files/figs/logo/KTH_logo_RGB_bla.pdf>
 Package luatex.def Info: kthpq-files/figs/logo/KTH_logo_RGB_bla.pdf  used on inp
-ut line 1004.
+ut line 1013.
 (luatex.def)             Requested size: 48.36967pt x 54.19899pt.
 [41
 
@@ -2586,7 +2586,7 @@ ut line 1004.
 File: kthpq-files/figs/logo/KTH_logo_RGB_bla.pdf Graphic file (type pdf)
 <use kthpq-files/figs/logo/KTH_logo_RGB_bla.pdf>
 Package luatex.def Info: kthpq-files/figs/logo/KTH_logo_RGB_bla.pdf  used on inp
-ut line 1033.
+ut line 1042.
 (luatex.def)             Requested size: 48.36967pt x 54.19899pt.
  [42
 
@@ -2595,19 +2595,19 @@ ut line 1033.
 File: kthpq-files/figs/logo/KTH_logo_RGB_vit.pdf Graphic file (type pdf)
 <use kthpq-files/figs/logo/KTH_logo_RGB_vit.pdf>
 Package luatex.def Info: kthpq-files/figs/logo/KTH_logo_RGB_vit.pdf  used on inp
-ut line 1035.
+ut line 1044.
 (luatex.def)             Requested size: 170.71652pt x 191.29665pt.
 File: kthpq-files/figs/lines/Linjemonster_himmelsbla_RGB_1x1.pdf Graphic file (t
 ype pdf)
 <use kthpq-files/figs/lines/Linjemonster_himmelsbla_RGB_1x1.pdf>
 Package luatex.def Info: kthpq-files/figs/lines/Linjemonster_himmelsbla_RGB_1x1.
-pdf  used on input line 1035.
+pdf  used on input line 1044.
 (luatex.def)             Requested size: 813.03552pt x 813.03552pt.
 File: kthpq-files/figs/lines/Linjemonster_himmelsbla_RGB_1x1.pdf Graphic file (t
 ype pdf)
 <use kthpq-files/figs/lines/Linjemonster_himmelsbla_RGB_1x1.pdf>
 Package luatex.def Info: kthpq-files/figs/lines/Linjemonster_himmelsbla_RGB_1x1.
-pdf  used on input line 1035.
+pdf  used on input line 1044.
 (luatex.def)             Requested size: 813.03552pt x 813.03552pt.
  [43
 
@@ -2621,11 +2621,11 @@ pdf  used on input line 1035.
 \tf@snm=\write9
 
 \openout9 = sample.snm
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1036.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1036.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1045.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1045.
  (./sample.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1036.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1036.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1045.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1045.
 Package rerunfilecheck Info: File `sample.out' has not changed.
 (rerunfilecheck)             Checksum: 08F7A913B6ABF56B4870F52530F4E1BA;911.
 Package logreq Info: Writing requests to 'sample.run.xml'.
@@ -2636,15 +2636,15 @@ Package logreq Info: Writing requests to 'sample.run.xml'.
 Here is how much of LuaTeX's memory you used:
  53874 strings out of 481365
  125171,2373549 words of node,token memory allocated
- 4115 words of node memory still in use:
+ 4123 words of node memory still in use:
    114 hlist, 8 vlist, 17 rule, 2 local_par, 98 glue, 10 kern, 12 penalty, 11 su
-b_mlist, 2 glyph, 280 attribute, 82 glue_spec, 280 attribute_list, 7 write, 3 sa
+b_mlist, 2 glyph, 282 attribute, 82 glue_spec, 282 attribute_list, 7 write, 3 sa
 ve_pos, 87 pdf_literal, 1 pdf_action, 26 pdf_colorstack, 4 pdf_setmatrix, 4 pdf_
 save, 4 pdf_restore nodes
-   avail lists: 1:6,2:3923,3:1616,4:226,5:162,6:61,7:2761,8:106,9:746,10:16,11:1
+   avail lists: 1:6,2:3919,3:1616,4:226,5:198,6:61,7:2761,8:106,9:746,10:16,11:1
 77
  67910 multiletter control sequences out of 65536+600000
- 161 fonts using 26499071 bytes
+ 161 fonts using 26498807 bytes
  84i,17n,143p,1657b,2941s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/fonts/truetype/msttcorefonts/Georgia.ttf><./kthpq-files/fonts/Figtre
 e/otf/Figtree-Regular.otf><./kthpq-files/fonts/ttf-bitstream-vera-1.10/VeraMono.
@@ -2653,7 +2653,7 @@ ar.otf></usr/share/fonts/truetype/msttcorefonts/Georgia_Bold.ttf><./kthpq-files/
 fonts/Figtree/otf/Figtree-Bold.otf><./kthpq-files/fonts/Figtree/otf/Figtree-Ital
 ic.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/firamath/FiraMath-Re
 gular.otf><./kthpq-files/fonts/Figtree/otf/Figtree-Regular.otf>
-Output written on sample.pdf (43 pages, 4235365 bytes).
+Output written on sample.pdf (43 pages, 4235649 bytes).
 
 PDF statistics: 742 PDF objects out of 1000 (max. 8388607)
  578 compressed objects within 6 object streams
